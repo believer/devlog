@@ -18,6 +18,7 @@ pre[class*='language-'] {
   hyphens: none;
 }
 @media (max-width: 480px) {
+  pre,
   code[class*='language-'],
   pre[class*='language-'] {
     word-break: break-word;
