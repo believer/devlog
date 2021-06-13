@@ -45,7 +45,7 @@
   }
 
   .element-block {
-    @apply flex items-start pl-4;
+    @apply flex items-start;
   }
 
   .element-block[data-level='1'] {
