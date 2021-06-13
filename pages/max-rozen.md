@@ -3,6 +3,7 @@ layout: page
 id: '60c1bd0a-4f76-4432-98aa-c0fb190b9be5'
 title: 'Max Rozen'
 tags: page
+excerpt: Twitter
 ---
   
 # Max Rozen

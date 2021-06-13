@@ -3,6 +3,7 @@ layout: page
 id: '60c5b2b0-4246-4f9a-936e-18b2aeb0221d'
 title: 'Explain in plain words'
 tags: page
+excerpt: An efficient way of testing your knowledge is to try and explain the subject in simple words. If you're unable to do that you haven't understood the subject well enough. Identify where your knowledge is lacking and study those areas more until you can explain them in simple words.
 ---
   
 # Explain in plain words

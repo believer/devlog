@@ -3,6 +3,7 @@ layout: page
 id: '60c1bd0a-2b69-4656-8811-f891507f8a94'
 title: 'Jest'
 tags: page
+excerpt: Jest is a [[JavaScript]] testing framework.
 ---
   
 # Jest

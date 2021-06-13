@@ -160,16 +160,18 @@ const run = async () => {
 
     const title = block['page-name']
     const isJournal = /^\d{4}-\d{2}-\d{2}$/.test(title)
+    const contents = getContent(block.children, [])
+
+    const excerpt = contents?.[0]?.replace(/<[^>]*>/g, '')
 
     const frontmatter = `---
 layout: page
 id: '${block.id}'
 title: '${title}'
 tags: ${isJournal ? 'journal' : 'page'}
+${excerpt ? `excerpt: ${excerpt}` : ''}
 ---
   `
-
-    const contents = getContent(block.children, [])
 
     const fileContent = `${frontmatter}
 ${!isJournal ? `# ${title}\n` : ''}

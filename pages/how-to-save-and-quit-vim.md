@@ -3,6 +3,7 @@ layout: page
 id: '60c1bd0a-b6bc-4794-9505-12bfa90cb72f'
 title: 'How to save and quit Vim'
 tags: page
+excerpt: There's a joke around the internet that it's impossible to quit [[Vim]], but we'll see that it's actually not that hard. First of all, make sure that you're in normal mode. If you haven't changed any settings, you'll get to normal mode by pressing Esc. From here you can use any of the following commands:
 ---
   
 # How to save and quit Vim

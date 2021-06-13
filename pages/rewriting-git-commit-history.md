@@ -3,6 +3,7 @@ layout: page
 id: '60c1bd0a-9cfc-451c-b277-b8e82803df3e'
 title: 'Rewriting Git commit history'
 tags: page
+
 ---
   
 # Rewriting Git commit history

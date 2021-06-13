@@ -3,6 +3,7 @@ layout: page
 id: '60c1bd0a-fc1b-4d03-8c11-de9a79aa03cd'
 title: 'Write useful error messages'
 tags: page
+excerpt: Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.
 ---
   
 # Write useful error messages

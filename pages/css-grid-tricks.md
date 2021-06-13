@@ -3,6 +3,7 @@ layout: page
 id: '60c5b2b0-52c2-4039-9a8a-ea809d26f390'
 title: 'CSS Grid tricks'
 tags: page
+excerpt: Add columns for spacing on mobile
 ---
   
 # CSS Grid tricks

@@ -3,6 +3,7 @@ layout: page
 id: '60c5b2b0-169b-4fd8-a3e6-0e6f22d1c9ce'
 title: 'Learning in public'
 tags: page
+excerpt: Share your knowledge and insights. To do this in the most effective way you'll need to [[Explain in plain words]]. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
 ---
   
 # Learning in public

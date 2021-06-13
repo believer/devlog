@@ -3,6 +3,7 @@ layout: page
 id: '60c5b2b0-e353-412b-aeea-267db4cb4f80'
 title: 'Learn by doing side projects'
 tags: page
+excerpt: I think I can honestly say that building a bunch of side projects has made me a better developer. I get to actively work on different problems, try new things and improve my knowledge.
 ---
   
 # Learn by doing side projects
