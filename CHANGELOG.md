@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/believer/devlog/compare/v1.0.1...v1.0.2) (2021-06-13)
+
+
+### Bug Fixes
+
+* remove element block padding ([2fa90bd](https://github.com/believer/devlog/commit/2fa90bdeeb4b8e52b6e6915a47953eca4d19cf7a))
+
 ## [1.0.1](https://github.com/believer/devlog/compare/v1.0.0...v1.0.1) (2021-06-13)
 
 
