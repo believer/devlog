@@ -3,10 +3,12 @@ layout: page
 id: '60c1bd0a-4f76-4432-98aa-c0fb190b9be5'
 title: 'Max Rozen'
 tags: page
-excerpt: Twitter
+excerpt: |
+  Twitter
+
 ---
   
-# Max Rozen
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Max Rozen">Max Rozen</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1"><a class="text-indigo-400" href="https://twitter.com/RozenMD" target="_blank" rel="">Twitter</a></div></div>

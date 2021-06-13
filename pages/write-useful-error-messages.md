@@ -3,10 +3,12 @@ layout: page
 id: '60c1bd0a-fc1b-4d03-8c11-de9a79aa03cd'
 title: 'Write useful error messages'
 tags: page
-excerpt: Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.
+excerpt: |
+  Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.
+
 ---
   
-# Write useful error messages
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Write useful error messages">Write useful error messages</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1">Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.</div></div>

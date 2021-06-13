@@ -3,10 +3,12 @@ layout: page
 id: '60c5b2b0-169b-4fd8-a3e6-0e6f22d1c9ce'
 title: 'Learning in public'
 tags: page
-excerpt: Share your knowledge and insights. To do this in the most effective way you'll need to [[Explain in plain words]]. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
+excerpt: |
+  Share your knowledge and insights. To do this in the most effective way you'll need to [[Explain in plain words]]. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
+
 ---
   
-# Learning in public
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Learning in public">Learning in public</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1">Share your knowledge and insights. To do this in the most effective way you'll need to <a class="text-teal-400 group" href="/pages/explain-in-plain-words"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Explain in plain words<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.</div></div>

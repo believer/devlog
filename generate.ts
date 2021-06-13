@@ -153,28 +153,35 @@ const run = async () => {
   await ensureDirectory(pagesDirectory)
   await ensureDirectory(journalsDirectory)
 
-  for (const block of data.blocks) {
-    if (block.children.length === 0 || block.children[0].content === '') {
+  for (const { id, children, ['page-name']: title } of data.blocks) {
+    if (children.length === 0 || children[0].content === '') {
       continue
     }
 
-    const title = block['page-name']
     const isJournal = /^\d{4}-\d{2}-\d{2}$/.test(title)
-    const contents = getContent(block.children, [])
+    const contents = getContent(children, [])
 
-    const excerpt = contents?.[0]?.replace(/<[^>]*>/g, '')
+    const excerpt =
+      contents?.[0]?.replace(/<[^>]*>/g, '').replace(/#\w+/g, '') ?? ''
 
     const frontmatter = `---
 layout: page
-id: '${block.id}'
+id: '${id}'
 title: '${title}'
 tags: ${isJournal ? 'journal' : 'page'}
-${excerpt ? `excerpt: ${excerpt}` : ''}
+${
+  excerpt
+    ? `excerpt: |
+  ${excerpt}
+`
+    : ''
+}
 ---
   `
 
     const fileContent = `${frontmatter}
-${!isJournal ? `# ${title}\n` : ''}
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/${title}">${title}</a></h2>
+
 <div class="space-y-2">
 ${contents.join('\n\n')}
 </div>

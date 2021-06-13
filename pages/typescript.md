@@ -6,7 +6,7 @@ tags: page
 
 ---
   
-# TypeScript
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/TypeScript">TypeScript</a></h2>
 
 <div class="space-y-2">
 

@@ -6,7 +6,7 @@ tags: page
 
 ---
   
-# Johnny Ji
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Johnny Ji">Johnny Ji</a></h2>
 
 <div class="space-y-2">
 

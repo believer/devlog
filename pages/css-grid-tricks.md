@@ -3,10 +3,12 @@ layout: page
 id: '60c5b2b0-52c2-4039-9a8a-ea809d26f390'
 title: 'CSS Grid tricks'
 tags: page
-excerpt: Add columns for spacing on mobile
+excerpt: |
+  Add columns for spacing on mobile
+
 ---
   
-# CSS Grid tricks
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/CSS Grid tricks">CSS Grid tricks</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">Add columns for spacing on mobile</strong></div></div>

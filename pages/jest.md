@@ -3,10 +3,12 @@ layout: page
 id: '60c1bd0a-2b69-4656-8811-f891507f8a94'
 title: 'Jest'
 tags: page
-excerpt: Jest is a [[JavaScript]] testing framework.
+excerpt: |
+  Jest is a [[JavaScript]] testing framework.
+
 ---
   
-# Jest
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Jest">Jest</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1">Jest is a <a class="text-teal-400 group" href="/pages/javascript"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>JavaScript<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a> testing framework.</div></div>

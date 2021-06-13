@@ -6,7 +6,7 @@ tags: page
 
 ---
   
-# Rewriting Git commit history
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Rewriting Git commit history">Rewriting Git commit history</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1"></div></div>

@@ -6,7 +6,7 @@ tags: page
 
 ---
   
-# Nielsen Norman Group
+<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Nielsen Norman Group">Nielsen Norman Group</a></h2>
 
 <div class="space-y-2">
 
