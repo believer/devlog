@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/coldark.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico" />
+  </head>
+  <body>
+    <nav class="p-5 bg-gray-800">
+      <a class="text-teal-400 font-semibold" href="/">Devlog</a>
+    </nav>
+    <main class="my-8 md:px-8 grid grid-template-main">
+      <div class="text-sm col-start-3 col-end-4">
+        <section class="mb-12 space-y-2">
+          <p>
+            <strong class="text-rose-400">You've found my devlog!</strong>
+            Here I'm trying to collect ideas and thoughts, new findings, and
+            reminders regarding software development. I see it as a
+            <a
+              class="text-indigo-400"
+              href="https://www.buildingasecondbrain.com/"
+              >second brain</a
+            >
+            for all things related to development. It's also also a way for me
+            to practice
+            <a class="text-teal-400 group" href="/pages/learning-in-public">
+              <span class="text-gray-500 group-hover:text-yellow-500">[[</span>
+              Learning in public
+              <span class="text-gray-500 group-hover:text-yellow-500"
+                >]]</span
+              > </a
+            >.
+          </p>
+          <p>
+            The content is created in
+            <a class="text-indigo-400" href="https://logseq.com/">Logseq</a>,
+            exported to JSON and then generated as static HTML.
+          </p>
+        </section>
+        {% block content %}
+        {{ content | safe }}
+        {% endblock %}
+      </div>
+    </main>
+  </body>
+</html>

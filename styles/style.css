@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-300;
+  }
+
+  ul {
+    @apply pl-5 list-disc space-y-2;
+  }
+
+  li > ul {
+    @apply mt-2;
+  }
+
+  h1 {
+    @apply mb-5 text-3xl font-semibold;
+  }
+
+  pre {
+    max-width: 100%;
+    overflow: auto;
+  }
+
+  pre > code {
+    @apply text-xs rounded;
+  }
+
+  :not(pre) > code {
+  }
+
+  :not(pre) > code {
+    @apply text-xs border rounded border-cyan-800 bg-opacity-20 bg-cyan-500;
+    font-family: MonoLisa, 'Fira Code', Monaco, Menlo, Consolas, 'COURIER NEW',
+      monospace;
+    padding: 2px 5px !important;
+  }
+}
+
+@layer components {
+  .grid-template-main {
+    grid-template-columns: 20px 1fr minmax(0, 600px) 1fr 20px;
+  }
+
+  .element-block {
+    @apply flex items-start pl-4;
+  }
+
+  .element-block[data-level='1'] {
+    @apply ml-4;
+  }
+
+  .element-block:before {
+    @apply block mr-2 bg-gray-700 rounded-full;
+    content: '';
+    height: 6px;
+    margin-top: 6px;
+    width: 6px;
+  }
+}

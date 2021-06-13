@@ -1,0 +1,26 @@
+---
+layout: page
+id: '60c5b2b0-4246-4f9a-936e-18b2aeb0221d'
+title: 'Explain in plain words'
+tags: page
+---
+  
+# Explain in plain words
+
+<div class="space-y-2">
+<div class="element-block ml-0"><div class="flex-1">An efficient way of testing your knowledge is to try and explain the subject in simple words. If you're unable to do that you haven't understood the subject well enough. Identify where your knowledge is lacking and study those areas more until you can explain them in simple words.</div></div>
+
+<div class="element-block ml-0"><div class="flex-1">You should be able to get your point across in as few words as possible, but don't overthink your first draft. Publish it then go over it again and make changes.</div></div>
+
+<div class="element-block ml-0"><div class="flex-1">A good way of testing this is by <a class="text-teal-400 group" href="/pages/learning-in-public"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Learning in public<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>. Tell a friend about it, write a blog post, share on <a class="text-teal-400 group" href="/pages/twitter"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Twitter<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>.</div></div>
+
+<div class="element-block ml-0"><div class="flex-1">This is the basis of <a class="text-teal-400 group" href="/pages/richard-feynman"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Richard Feynman<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>'s learning technique</div></div>
+
+<hr class="border-gray-700 !my-5" />
+
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 group" href="/pages/shu-omi"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Shu Omi<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a> (<a class="text-teal-400 group" href="/pages/2020-10-23"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>2020-10-23<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>). <em>"Simple Feynman Technique for Studying"</em>. <a class="text-indigo-400" href="https://www.youtube.com/watch?v=GL6Z1DTJ-LQ" target="_blank" rel="">https://www.youtube.com/watch?v=GL6Z1DTJ-LQ</a></div></div>
+
+<div class="element-block ml-0"><div class="flex-1"><a class="text-gray-400" href="/pages/learning">#Learning</a></div></div>
+
+<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">ID:</strong> 210611105334</div></div>
+</div>
