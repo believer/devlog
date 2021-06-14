@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/believer/devlog/compare/v1.3.2...v1.3.3) (2021-06-14)
+
+
+### Bug Fixes
+
+* lighthouse issues ([118a398](https://github.com/believer/devlog/commit/118a39848af91764cf81a4e10d4c2ba9fe9d48db))
+
 ## [1.3.2](https://github.com/believer/devlog/compare/v1.3.1...v1.3.2) (2021-06-14)
 
 
