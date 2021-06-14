@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/believer/devlog/compare/v1.2.1...v1.3.0) (2021-06-14)
+
+
+### Features
+
+* add 2021-06-14 ([b3f7c80](https://github.com/believer/devlog/commit/b3f7c803b2ccf4044bd3be3f5f24ed20c832939b))
+
 ## [1.2.1](https://github.com/believer/devlog/compare/v1.2.0...v1.2.1) (2021-06-14)
 
 
