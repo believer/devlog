@@ -113,38 +113,38 @@ export const getContent = (
 
       for (const [titleType, titleContent] of child.title) {
         if (titleType === 'Plain') {
-          row += `${titleContent}`
+          row += titleContent
         }
 
         if (titleType === 'Tag') {
-          row += `${createTag(titleContent)}`
+          row += createTag(titleContent)
         }
 
         if (titleType === 'Code') {
-          row += `${createInlineCode(titleContent)}`
+          row += createInlineCode(titleContent)
         }
 
         if (titleType === 'Link' && titleContent.url[0] === 'Search') {
-          row += `${createLink(titleContent.url[1])}`
+          row += createLink(titleContent.url[1])
         }
 
         if (titleType === 'Link' && titleContent.url[0] === 'Complex') {
-          row += `${createExternalLink(
+          row += createExternalLink(
             titleContent.url[1],
             titleContent.label[0][1]
-          )}`
+          )
         }
 
         if (titleType === 'Link' && titleContent.url[0] === 'File') {
-          row += `${createImage(titleContent.url[1])}`
+          row += createImage(titleContent.url[1])
         }
 
         if (titleType === 'Emphasis' && titleContent[0][0] === 'Bold') {
-          row += `${createBoldText(titleContent[1][0][1])}`
+          row += createBoldText(titleContent[1][0][1])
         }
 
         if (titleType === 'Emphasis' && titleContent[0][0] === 'Italic') {
-          row += `${createItalicText(titleContent[1][0][1])}`
+          row += createItalicText(titleContent[1][0][1])
         }
       }
 
