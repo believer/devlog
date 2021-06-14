@@ -10,7 +10,7 @@ excerpt: |
   
 <h2 class="text-3xl font-semibold mb-4"><a href="/pages/adding-types-to-a-react-component-in-typescript">Adding types to a React component in TypeScript</a></h2>
 
-<div class="space-y-2">
+<div class="space-y-3">
 <div class="element-block ml-0"><div class="flex-1">In the types for <a class="text-teal-400 group" href="/pages/react"><span class="text-gray-500 group-hover:text-teal-500">[[</span>React<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>, <code>@types/react</code>, there's an included helper for typing components called <code>React.FC</code> (or the longer version <code>React.FunctionComponent</code>). However, there are some downsides to using this.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">The component will accept <code>children</code> even if we're not using it. This happens because <code>React.FC</code> implicitly sets the <code>children</code> and some other values.</div></div>
@@ -66,7 +66,7 @@ const App = ({ text }: AppProps) => {
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 group" href="/pages/kent-c.-dodds"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Kent C. Dodds<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. (<a class="text-teal-400 group" href="/journals/2021-03-04"><span class="text-gray-500 group-hover:text-teal-500">[[</span>2021-03-04<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>). <em>How to write a React Component in TypeScript</em>. <a class="text-indigo-400" href="https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript" target="_blank" rel="">https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript</a></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 group" href="/pages/kent-c.-dodds"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Kent C. Dodds<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. (<a class="text-teal-400 group" href="/journals/2021-03-04"><span class="text-gray-500 group-hover:text-teal-500">[[</span>2021-03-04<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>). <em>How to write a React Component in TypeScript</em>. <a class="text-indigo-400" href="https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript" target="_blank" rel="noopener noreferrer">https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript</a></div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-gray-400" href="/pages/typescript">#TypeScript</a></div></div>
 
@@ -76,6 +76,6 @@ const App = ({ text }: AppProps) => {
 
 
 <section class="mt-8 space-y-2">
-<header class="text-gray-500">Linked references</header>
+<header class="text-gray-400">Linked references</header>
 <a class="block bg-gray-800 p-4 rounded text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 hover:ring-teal-400" href="/journals/2021-06-14">2021-06-14</a>
   </section>

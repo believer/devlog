@@ -10,10 +10,10 @@ excerpt: |
   
 <h2 class="text-3xl font-semibold mb-4"><a href="/pages/write-useful-error-messages">Write useful error messages</a></h2>
 
-<div class="space-y-2">
+<div class="space-y-3">
 <div class="element-block ml-0"><div class="flex-1">Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.</div></div>
 
-<div class="element-block ml-0"><div class="flex-1">The <a class="text-teal-400 group" href="/pages/nielsen-norman-group"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Nielsen Norman Group<span class="text-gray-500 group-hover:text-teal-500">]]</span></a> <a class="text-indigo-400" href="https://www.nngroup.com/articles/improving-dreaded-404-error-message/" target="_blank" rel="">wrote about it</a> in 1998 and summarized it in these three guiding principles:</div></div>
+<div class="element-block ml-0"><div class="flex-1">The <a class="text-teal-400 group" href="/pages/nielsen-norman-group"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Nielsen Norman Group<span class="text-gray-500 group-hover:text-teal-500">]]</span></a> <a class="text-indigo-400" href="https://www.nngroup.com/articles/improving-dreaded-404-error-message/" target="_blank" rel="noopener noreferrer">wrote about it</a> in 1998 and summarized it in these three guiding principles:</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">Write using plain words. Avoid technical jargon and error codes</div></div>
 
@@ -31,7 +31,7 @@ excerpt: |
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 group" href="/pages/max-rozen"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Max Rozen<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. (<a class="text-teal-400 group" href="/journals/2021-06-08"><span class="text-gray-500 group-hover:text-teal-500">[[</span>2021-06-08<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>). <em>What the Fastly outage can teach us about writing error messages</em>. <a class="text-indigo-400" href="https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages" target="_blank" rel="">https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages</a></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 group" href="/pages/max-rozen"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Max Rozen<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. (<a class="text-teal-400 group" href="/journals/2021-06-08"><span class="text-gray-500 group-hover:text-teal-500">[[</span>2021-06-08<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>). <em>What the Fastly outage can teach us about writing error messages</em>. <a class="text-indigo-400" href="https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages" target="_blank" rel="noopener noreferrer">https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages</a></div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-gray-400" href="/pages/errors">#Errors</a>, <a class="text-gray-400" href="/pages/writing">#Writing</a></div></div>
 
@@ -41,6 +41,6 @@ excerpt: |
 
 
 <section class="mt-8 space-y-2">
-<header class="text-gray-500">Linked references</header>
+<header class="text-gray-400">Linked references</header>
 <a class="block bg-gray-800 p-4 rounded text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 hover:ring-teal-400" href="/journals/2021-06-09">2021-06-09</a>
   </section>
