@@ -14,7 +14,7 @@ module.exports = function (config) {
   config.addPlugin(pluginSEO, {
     title: 'Devlog',
     description:
-      'Ideas, thought, reminder and things I find interesting in software development',
+      'Ideas, thoughts, reminders and things I find interesting in software development',
     url: 'https://devlog.willcodefor.beer',
     author: 'Rickard Natt och Dag',
     twitter: 'rnattochdag',
