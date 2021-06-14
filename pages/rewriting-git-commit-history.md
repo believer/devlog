@@ -3,14 +3,14 @@ layout: page
 id: '60c1bd0a-9cfc-451c-b277-b8e82803df3e'
 title: 'Rewriting Git commit history'
 tags: page
+excerpt: |
+  If you want to fix a commit inside a [[PR]] you can use [[Git]] rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:
 
 ---
   
 <h2 class="text-3xl font-semibold mb-4"><a href="/pages/rewriting-git-commit-history">Rewriting Git commit history</a></h2>
 
 <div class="space-y-2">
-<div class="element-block ml-0"><div class="flex-1"></div></div>
-
 <div class="element-block ml-0"><div class="flex-1">If you want to fix a commit inside a <a class="text-teal-400 group" href="/pages/pr"><span class="text-gray-500 group-hover:text-teal-500">[[</span>PR<span class="text-gray-500 group-hover:text-teal-500">]]</span></a> you can use <a class="text-teal-400 group" href="/pages/git"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Git<span class="text-gray-500 group-hover:text-teal-500">]]</span></a> rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">Commit A (sha: 123)</div></div>
@@ -59,6 +59,9 @@ pick 789 Commit C
 
 
 <div class="element-block ml-0"><div class="flex-1">If you would run <code>git log</code> at this point you would notice that the commit SHAs for Commit B and Commit C have changed. This happened be we altered history using with our rebase. To update our PR we need to do a force push, <code>git push -f</code></div></div>
+
+<div class="element-block ml-0"><div class="flex-1"><div class="text-yellow-500">Only do this in pull requests, don't alter your commits on you default branch.
+</div></div></div>
 
 <hr class="border-gray-700 !my-5" />
 

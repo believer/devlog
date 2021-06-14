@@ -71,6 +71,10 @@ const createImage = (src: string) => {
   return `<img alt="" src="${src.substr(2)}" />`
 }
 
+const createWarning = (text: string) => {
+  return `<div class="text-yellow-500">${text}</div>`
+}
+
 export const getContent = (
   children: any,
   contents: any = [],
@@ -86,12 +90,16 @@ export const getContent = (
         level * 4
       }"><div class="flex-1">`
 
-      for (const [titleType, titleContent] of child.body) {
+      for (const [titleType, titleContent, ...rest] of child.body) {
         if (titleType === 'Src') {
           row += `\n\n${createCodeText(
             titleContent.lines.join(''),
             titleContent.language
           )}\n\n`
+        }
+
+        if (titleType === 'Custom' && titleContent === 'warning') {
+          row += createWarning(rest[2])
         }
 
         contents.push(row + '</div></div>')
