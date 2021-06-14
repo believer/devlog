@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/believer/devlog/compare/v1.3.3...v1.4.0) (2021-06-14)
+
+
+### Features
+
+* add focus styles for links ([ac626c6](https://github.com/believer/devlog/commit/ac626c674a880f57d28955a4459356baa4eb8e45))
+
 ## [1.3.3](https://github.com/believer/devlog/compare/v1.3.2...v1.3.3) (2021-06-14)
 
 
