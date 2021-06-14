@@ -6,8 +6,11 @@ tags: page
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/journals/Errors">Errors</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a href="/pages/errors">Errors</a></h2>
 
 <div class="space-y-2">
 
 </div>
+
+
+

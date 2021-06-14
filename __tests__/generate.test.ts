@@ -1,4 +1,4 @@
-import { getContent } from '../generate'
+import { collectReferences, getContent, references } from '../generate'
 
 describe('#getContent', () => {
   const data = [
@@ -121,7 +121,7 @@ describe('#getContent', () => {
     },
   ]
 
-  test('remove properties', () => {
+  test('renders a page', () => {
     expect(getContent(data)).toMatchSnapshot()
   })
 })

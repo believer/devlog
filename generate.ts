@@ -9,6 +9,12 @@ const createDirectory = promisify(fs.mkdir)
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
 
+export const references = new Map()
+
+const isJournal = (title: string) => {
+  return /^\d{4}-\d{2}-\d{2}$/.test(title)
+}
+
 const ensureDirectory = async (dir: string) => {
   if (!fs.existsSync(dir)) {
     await createDirectory(dir)
@@ -20,13 +26,15 @@ const removeLinkRef = (text: string) => {
 }
 
 const slugify = (input: string) => {
-  return removeLinkRef(input.toLowerCase().replace(/\s/g, '-'))
+  return removeLinkRef(input.trim().toLowerCase().replace(/\s/g, '-'))
 }
 
 const createLink = (title: string) => {
-  return `<a class="text-teal-400 group" href="/pages/${slugify(
+  return `<a class="text-teal-400 group" href="/${
+    isJournal(title) ? 'journals' : 'pages'
+  }/${slugify(
     title
-  )}"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>${title}<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>`
+  )}"><span class="text-gray-500 group-hover:text-teal-500">[[</span>${title}<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>`
 }
 
 const createExternalLink = (
@@ -78,7 +86,7 @@ export const getContent = (
         level * 4
       }"><div class="flex-1">`
 
-      for (const [i, [titleType, titleContent]] of child.body.entries()) {
+      for (const [titleType, titleContent] of child.body) {
         if (titleType === 'Src') {
           row += `\n\n${createCodeText(
             titleContent.lines.join(''),
@@ -95,7 +103,7 @@ export const getContent = (
         level * 4
       }"><div class="flex-1">`
 
-      for (const [i, [titleType, titleContent]] of child.title.entries()) {
+      for (const [titleType, titleContent] of child.title) {
         if (titleType === 'Plain') {
           row += `${titleContent}`
         }
@@ -149,17 +157,47 @@ export const getContent = (
   return contents
 }
 
+export const collectReferences = (blocks: any) => {
+  for (const { children, ['page-name']: title } of blocks) {
+    for (const child of children) {
+      if (child.title?.length > 0) {
+        for (const [titleType, titleContent] of child.title) {
+          if (titleType === 'Link' && titleContent.url[0] === 'Search') {
+            const slugTitle = slugify(titleContent.url[1])
+
+            if (references.has(slugTitle)) {
+              const current = references.get(slugTitle)
+              references.set(slugTitle, current.add(title))
+            } else {
+              const newSet = new Set()
+              references.set(slugTitle, newSet.add(title))
+            }
+          }
+        }
+
+        if (child.children.length > 0) {
+          collectReferences(child.children)
+        } else {
+          continue
+        }
+      }
+    }
+  }
+}
+
 const run = async () => {
   await ensureDirectory(pagesDirectory)
   await ensureDirectory(journalsDirectory)
+
+  collectReferences(data.blocks)
 
   for (const { id, children, ['page-name']: title } of data.blocks) {
     if (children.length === 0 || children[0].content === '') {
       continue
     }
 
-    const isJournal = /^\d{4}-\d{2}-\d{2}$/.test(title)
-    const contents = getContent(children, [])
+    const contents = getContent(children)
+    const slug = slugify(title)
 
     const excerpt =
       contents?.[0]?.replace(/<[^>]*>/g, '').replace(/#\w+/g, '') ?? ''
@@ -168,7 +206,7 @@ const run = async () => {
 layout: page
 id: '${id}'
 title: '${title}'
-tags: ${isJournal ? 'journal' : 'page'}
+tags: ${isJournal(title) ? 'journal' : 'page'}
 ${
   excerpt
     ? `excerpt: |
@@ -180,17 +218,37 @@ ${
   `
 
     const fileContent = `${frontmatter}
-<h2 class="text-3xl font-semibold mb-4"><a href="/journals/${title}">${title}</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a href="/${
+      isJournal(title) ? 'journals' : 'pages'
+    }/${slugify(title)}">${title}</a></h2>
 
 <div class="space-y-2">
 ${contents.join('\n\n')}
 </div>
+
+
+${
+  references.has(slug)
+    ? `
+<section class="mt-8 space-y-2">
+<header class="text-gray-500">Linked references</header>
+${([...references.get(slug)] ?? [])
+  .map((title: string) => {
+    return `<a class="block bg-gray-800 p-4 rounded text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 hover:ring-teal-400" href="/${
+      isJournal(title) ? 'journals' : 'pages'
+    }/${slugify(title)}">${title}</a>`
+  })
+  .join('\n')}
+  </section>`
+    : ''
+}
 `
 
-    const slug = slugify(title)
-
     await writeFile(
-      path.join(isJournal ? journalsDirectory : pagesDirectory, `${slug}.md`),
+      path.join(
+        isJournal(title) ? journalsDirectory : pagesDirectory,
+        `${slug}.md`
+      ),
       fileContent,
       {
         flag: 'w',

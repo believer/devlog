@@ -8,10 +8,10 @@ excerpt: |
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/journals/How to save and quit Vim">How to save and quit Vim</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a href="/pages/how-to-save-and-quit-vim">How to save and quit Vim</a></h2>
 
 <div class="space-y-2">
-<div class="element-block ml-0"><div class="flex-1">There's a <a class="text-indigo-400" href="https://twitter.com/iamdevloper/status/435555976687923200" target="_blank" rel="">joke around the internet</a> that it's impossible to quit <a class="text-teal-400 group" href="/pages/vim"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Vim<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>, but we'll see that it's actually not that hard. First of all, make sure that you're in <strong class="text-rose-400">normal mode</strong>. If you haven't changed any settings, you'll get to normal mode by pressing <code>Esc</code>. From here you can use any of the following commands:</div></div>
+<div class="element-block ml-0"><div class="flex-1">There's a <a class="text-indigo-400" href="https://twitter.com/iamdevloper/status/435555976687923200" target="_blank" rel="">joke around the internet</a> that it's impossible to quit <a class="text-teal-400 group" href="/pages/vim"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Vim<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>, but we'll see that it's actually not that hard. First of all, make sure that you're in <strong class="text-rose-400">normal mode</strong>. If you haven't changed any settings, you'll get to normal mode by pressing <code>Esc</code>. From here you can use any of the following commands:</div></div>
 
 <div class="element-block ml-4"><div class="flex-1"><code>:q</code> - quit (short for <code>:quit</code>)</div></div>
 
@@ -37,3 +37,6 @@ excerpt: |
 
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">ID:</strong> 210609194733</div></div>
 </div>
+
+
+

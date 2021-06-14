@@ -8,14 +8,14 @@ excerpt: |
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/journals/CSS Grid tricks">CSS Grid tricks</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a href="/pages/css-grid-tricks">CSS Grid tricks</a></h2>
 
 <div class="space-y-2">
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">Add columns for spacing on mobile</strong></div></div>
 
-<div class="element-block ml-4"><div class="flex-1">We have some content that we want to position in the center of the screen. For this we can use <a class="text-teal-400 group" href="/pages/css-grid"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>CSS Grid<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>. By defining fixed values at the edges of our grid template we can achieve spacing without using <code>padding</code> when the grid resizes on a smaller screen.</div></div>
+<div class="element-block ml-4"><div class="flex-1">We have some content that we want to position in the center of the screen. For this we can use <a class="text-teal-400 group" href="/pages/css-grid"><span class="text-gray-500 group-hover:text-teal-500">[[</span>CSS Grid<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. By defining fixed values at the edges of our grid template we can achieve spacing without using <code>padding</code> when the grid resizes on a smaller screen.</div></div>
 
-<div class="element-block ml-4"><div class="flex-1">Remember to add <a class="text-teal-400 group" href="/pages/meta-viewport-for-mobile-devices"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Meta viewport for mobile devices<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>, otherwise the content won't scale correctly on smaller screens and the spacings will not work.</div></div>
+<div class="element-block ml-4"><div class="flex-1">Remember to add <a class="text-teal-400 group" href="/pages/meta-viewport-for-mobile-devices"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Meta viewport for mobile devices<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>, otherwise the content won't scale correctly on smaller screens and the spacings will not work.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">
 
@@ -54,7 +54,7 @@ excerpt: |
 
 </div></div>
 
-<div class="element-block ml-4"><div class="flex-1">Here's the grid in desktop size with the grid columns highlighted using <a class="text-teal-400 group" href="/pages/chrome"><span class="text-gray-500 group-hover:text-yellow-500">[[</span>Chrome<span class="text-gray-500 group-hover:text-yellow-500">]]</span></a>'s <code>grid</code> tool.</div></div>
+<div class="element-block ml-4"><div class="flex-1">Here's the grid in desktop size with the grid columns highlighted using <a class="text-teal-400 group" href="/pages/chrome"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Chrome<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>'s <code>grid</code> tool.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1"><img alt="" src="/assets/Skärmavbild_2021-06-10_kl._08.05.50_1623305228889_0.png" /></div></div>
 
@@ -64,3 +64,10 @@ excerpt: |
 
 
 </div>
+
+
+
+<section class="mt-8 space-y-2">
+<header class="text-gray-500">Linked references</header>
+<a class="block bg-gray-800 p-4 rounded text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 hover:ring-teal-400" href="/journals/2021-06-10">2021-06-10</a>
+  </section>
