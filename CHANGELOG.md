@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/believer/devlog/compare/v1.1.0...v1.2.0) (2021-06-14)
+
+
+### Features
+
+* add excerpts for seo, add links to journal pages ([8ade93a](https://github.com/believer/devlog/commit/8ade93a283e8804aecfb7c3916b8ec181d0a9c02))
+* add linked references ([5481fea](https://github.com/believer/devlog/commit/5481fea96a96f09cc41a92b9186409af8ed2bf8c))
+* add warnings ([c1e7b9f](https://github.com/believer/devlog/commit/c1e7b9f3a5605948d501d740e53864df38d8d1a0))
+
 # [1.1.0](https://github.com/believer/devlog/compare/v1.0.2...v1.1.0) (2021-06-13)
 
 
