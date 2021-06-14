@@ -200,12 +200,15 @@ const run = async () => {
   }
 
   for (const { id, children, ['page-name']: title } of data.blocks) {
-    if (children.length === 0 || children[0].content === '') {
-      continue
-    }
-
     const contents = getContent(children)
     const slug = slugify(title)
+
+    if (
+      (children.length === 0 || children[0].content === '') &&
+      !references.get(slug)
+    ) {
+      continue
+    }
 
     const excerpt =
       contents?.[0]?.replace(/<[^>]*>/g, '').replace(/#\w+/g, '') ?? ''
