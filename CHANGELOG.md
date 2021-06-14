@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/believer/devlog/compare/v1.2.0...v1.2.1) (2021-06-14)
+
+
+### Bug Fixes
+
+* nested references ([0504743](https://github.com/believer/devlog/commit/05047430479043b71906718619a75a304888eb29))
+
 # [1.2.0](https://github.com/believer/devlog/compare/v1.1.0...v1.2.0) (2021-06-14)
 
 
