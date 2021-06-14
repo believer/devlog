@@ -165,29 +165,27 @@ export const getContent = (
   return contents
 }
 
-export const collectReferences = (blocks: any) => {
-  for (const { children, ['page-name']: title } of blocks) {
-    for (const child of children) {
-      if (child.title?.length > 0) {
-        for (const [titleType, titleContent] of child.title) {
-          if (titleType === 'Link' && titleContent.url[0] === 'Search') {
-            const slugTitle = slugify(titleContent.url[1])
+export const collectReferences = (children: any, title: string) => {
+  for (const child of children) {
+    if (child.title?.length > 0) {
+      for (const [titleType, titleContent] of child.title) {
+        if (titleType === 'Link' && titleContent.url[0] === 'Search') {
+          const slugTitle = slugify(titleContent.url[1])
 
-            if (references.has(slugTitle)) {
-              const current = references.get(slugTitle)
-              references.set(slugTitle, current.add(title))
-            } else {
-              const newSet = new Set()
-              references.set(slugTitle, newSet.add(title))
-            }
+          if (references.has(slugTitle)) {
+            const current = references.get(slugTitle)
+            references.set(slugTitle, current.add(title))
+          } else {
+            const newSet = new Set()
+            references.set(slugTitle, newSet.add(title))
           }
         }
+      }
 
-        if (child.children.length > 0) {
-          collectReferences(child.children)
-        } else {
-          continue
-        }
+      if (child.children.length > 0) {
+        collectReferences(child.children, title)
+      } else {
+        continue
       }
     }
   }
@@ -197,7 +195,9 @@ const run = async () => {
   await ensureDirectory(pagesDirectory)
   await ensureDirectory(journalsDirectory)
 
-  collectReferences(data.blocks)
+  for (const { children, ['page-name']: title } of data.blocks) {
+    collectReferences(children, title)
+  }
 
   for (const { id, children, ['page-name']: title } of data.blocks) {
     if (children.length === 0 || children[0].content === '') {
