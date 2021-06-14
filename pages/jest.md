@@ -8,10 +8,10 @@ excerpt: |
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/pages/jest">Jest</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/jest">Jest</a></h2>
 
 <div class="space-y-3">
-<div class="element-block ml-0"><div class="flex-1">Jest is a <a class="text-teal-400 group" href="/pages/javascript"><span class="text-gray-500 group-hover:text-teal-500">[[</span>JavaScript<span class="text-gray-500 group-hover:text-teal-500">]]</span></a> testing framework.</div></div>
+<div class="element-block ml-0"><div class="flex-1">Jest is a <a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/javascript"><span class="text-gray-500 group-hover:text-teal-900">[[</span>JavaScript<span class="text-gray-500 group-hover:text-teal-900">]]</span></a> testing framework.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">Pros</strong></div></div>
 
@@ -19,7 +19,7 @@ excerpt: |
 
 
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-indigo-400" href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">https://jestjs.io/</a></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">https://jestjs.io/</a></div></div>
 </div>
 
 

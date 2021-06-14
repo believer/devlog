@@ -6,7 +6,7 @@ tags: page
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/pages/pr">PR</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/pr">PR</a></h2>
 
 <div class="space-y-3">
 

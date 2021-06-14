@@ -30,18 +30,18 @@ const slugify = (input: string) => {
 }
 
 const createLink = (title: string) => {
-  return `<a class="text-teal-400 group" href="/${
+  return `<a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/${
     isJournal(title) ? 'journals' : 'pages'
   }/${slugify(
     title
-  )}"><span class="text-gray-500 group-hover:text-teal-500">[[</span>${title}<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>`
+  )}"><span class="text-gray-500 group-hover:text-teal-900">[[</span>${title}<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>`
 }
 
 const createExternalLink = (
   link: { protocol: 'http' | 'https'; link: string },
   label: string
 ) => {
-  return `<a class="text-indigo-400" href="${link.protocol}:${link.link}" target="_blank" rel="noopener noreferrer">${label}</a>`
+  return `<a class="text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="${link.protocol}:${link.link}" target="_blank" rel="noopener noreferrer">${label}</a>`
 }
 
 const createBoldText = (title: string) => {
@@ -229,7 +229,7 @@ ${
   `
 
     const fileContent = `${frontmatter}
-<h2 class="text-3xl font-semibold mb-4"><a href="/${
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/${
       isJournal(title) ? 'journals' : 'pages'
     }/${slugify(title)}">${title}</a></h2>
 

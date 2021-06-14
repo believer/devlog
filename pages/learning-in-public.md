@@ -8,10 +8,10 @@ excerpt: |
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a href="/pages/learning-in-public">Learning in public</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/learning-in-public">Learning in public</a></h2>
 
 <div class="space-y-3">
-<div class="element-block ml-0"><div class="flex-1">Share your knowledge and insights. To do this in the most effective way you'll need to <a class="text-teal-400 group" href="/pages/explain-in-plain-words"><span class="text-gray-500 group-hover:text-teal-500">[[</span>Explain in plain words<span class="text-gray-500 group-hover:text-teal-500">]]</span></a>. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.</div></div>
+<div class="element-block ml-0"><div class="flex-1">Share your knowledge and insights. To do this in the most effective way you'll need to <a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/explain-in-plain-words"><span class="text-gray-500 group-hover:text-teal-900">[[</span>Explain in plain words<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">By learning and building in public you'll sooner or later post something that resonates with someone else. This feedback might lead to new insights and even better knowledge.</div></div>
 
