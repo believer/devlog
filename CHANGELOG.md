@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/believer/devlog/compare/v1.5.0...v1.6.0) (2021-06-15)
+
+
+### Bug Fixes
+
+* add linked references for tags ([78dda19](https://github.com/believer/devlog/commit/78dda199e642ad25815154ec91f416b30196c916))
+
+
+### Features
+
+* add light mode ([ee8094a](https://github.com/believer/devlog/commit/ee8094a355851573771d0314fc20dd24645b20d3))
+
 # [1.5.0](https://github.com/believer/devlog/compare/v1.4.0...v1.5.0) (2021-06-15)
 
 
