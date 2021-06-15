@@ -1,7 +1,7 @@
-import data from '../data.json'
-import { writeFile, mkdir, access } from 'fs/promises'
 import { constants } from 'fs'
+import { access, mkdir, writeFile } from 'fs/promises'
 import path from 'path'
+import data from '../data.json'
 import {
   boldText,
   code,
