@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/believer/devlog/compare/v1.7.0...v1.7.1) (2021-06-15)
+
+
+### Bug Fixes
+
+* broken export of frontend testing workshop ([e2fa854](https://github.com/believer/devlog/commit/e2fa854458264ec70f80557001bcbf3402f71456))
+
 # [1.7.0](https://github.com/believer/devlog/compare/v1.6.0...v1.7.0) (2021-06-15)
 
 
