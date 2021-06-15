@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/believer/devlog/compare/v1.7.2...v1.7.3) (2021-06-15)
+
+
+### Bug Fixes
+
+* add missing pages ([66497e5](https://github.com/believer/devlog/commit/66497e544f472e68bd07543cb732acc954e7f4e7))
+
 ## [1.7.2](https://github.com/believer/devlog/compare/v1.7.1...v1.7.2) (2021-06-15)
 
 
