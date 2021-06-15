@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c1bd0a-2e3f-4b8b-b38d-45ba4053ac80'
+id: '60c86fb9-888e-41b0-873c-e2988813b6a8'
 title: 'TypeScript'
 tags: page
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c5b2b0-a118-45ff-b2b8-26eced39cd1b'
+id: '60c86fb9-68ba-438e-beff-94a1fbba97ee'
 title: 'Richard Feynman'
 tags: page
 

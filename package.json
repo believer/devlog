@@ -8,7 +8,7 @@
     "css:prod": "NODE_ENV=production postcss styles/style.css -o _site/style.css",
     "dev": "tsc -w --noEmit",
     "serve": "eleventy --serve",
-    "start": "ts-node generate.ts",
+    "start": "ts-node ./src/generate.ts",
     "test": "is-ci-cli test:ci test:watch",
     "test:ci": "jest",
     "test:watch": "jest --watch",

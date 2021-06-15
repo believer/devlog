@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c5b2b0-169b-4fd8-a3e6-0e6f22d1c9ce'
+id: '60c86fb9-acb3-444e-8451-57b8eb119bd5'
 title: 'Learning in public'
 tags: page
 excerpt: |

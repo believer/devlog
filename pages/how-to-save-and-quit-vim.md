@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c1bd0a-b6bc-4794-9505-12bfa90cb72f'
+id: '60c86fb9-e9be-4022-8108-ab2d4a62df14'
 title: 'How to save and quit Vim'
 tags: page
 excerpt: |
