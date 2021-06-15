@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c8dfac-c375-4e59-8fb4-de3efc97bf6a'
+id: '60c8fcdc-b82c-4aad-a595-44091886c6f1'
 title: 'React'
 tags: page
 excerpt: |
