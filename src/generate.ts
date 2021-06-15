@@ -122,20 +122,24 @@ export const getContent = (
   return contents
 }
 
+const addReference = (ref: string, title: string) => {
+  if (references.has(ref)) {
+    const current = references.get(ref)
+    references.set(ref, current.add(title))
+  } else {
+    const newSet = new Set()
+    references.set(ref, newSet.add(title))
+  }
+}
+
 export const collectReferences = (children: any, title: string) => {
   for (const child of children) {
     if (child.title?.length > 0) {
       for (const [titleType, titleContent] of child.title) {
         if (titleType === 'Link' && titleContent.url[0] === 'Search') {
-          const slugTitle = slugify(titleContent.url[1])
-
-          if (references.has(slugTitle)) {
-            const current = references.get(slugTitle)
-            references.set(slugTitle, current.add(title))
-          } else {
-            const newSet = new Set()
-            references.set(slugTitle, newSet.add(title))
-          }
+          addReference(slugify(titleContent.url[1]), title)
+        } else if (titleType === 'Tag') {
+          addReference(slugify(titleContent), title)
         }
       }
 
