@@ -41,7 +41,7 @@
 
 @layer components {
   .grid-template-main {
-    grid-template-columns: 20px 1fr minmax(0, 600px) 1fr 20px;
+    grid-template-columns: 20px 1fr minmax(0, 660px) 1fr 20px;
   }
 
   .element-block {
