@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/believer/devlog/compare/v1.4.0...v1.5.0) (2021-06-15)
+
+
+### Features
+
+* update data ([8058c42](https://github.com/believer/devlog/commit/8058c42c429c7587e61631b5a924563b568f0f5f))
+
 # [1.4.0](https://github.com/believer/devlog/compare/v1.3.3...v1.4.0) (2021-06-14)
 
 
