@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-900 text-gray-300;
+    @apply text-gray-700 dark:bg-gray-900 dark:text-gray-300;
   }
 
   ul {
@@ -32,7 +32,7 @@
   }
 
   :not(pre) > code {
-    @apply text-xs border rounded border-cyan-800 bg-opacity-20 bg-cyan-500;
+    @apply text-xs border rounded border-cyan-300 dark:border-cyan-800 bg-opacity-20 dark:bg-opacity-20 bg-cyan-200 dark:bg-cyan-500;
     font-family: MonoLisa, 'Fira Code', Monaco, Menlo, Consolas, 'COURIER NEW',
       monospace;
     padding: 2px 5px !important;

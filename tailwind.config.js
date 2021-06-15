@@ -9,7 +9,7 @@ module.exports = {
     './pages/*.md',
     './journals/*.md',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {

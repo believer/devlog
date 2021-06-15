@@ -8,10 +8,10 @@ excerpt: |
 
 ---
   
-<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/adding-types-to-a-react-component-in-typescript">Adding types to a React component in TypeScript</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/adding-types-to-a-react-component-in-typescript">Adding types to a React component in TypeScript</a></h2>
 
 <div class="space-y-3">
-<div class="element-block ml-0"><div class="flex-1">In the types for <a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/react"><span class="text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>, <code>@types/react</code>, there's an included helper for typing components called <code>React.FC</code> (or the longer version <code>React.FunctionComponent</code>). However, there are some downsides to using this.</div></div>
+<div class="element-block ml-0"><div class="flex-1">In the types for <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <code>@types/react</code>, there's an included helper for typing components called <code>React.FC</code> (or the longer version <code>React.FunctionComponent</code>). However, there are some downsides to using this.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">The component will accept <code>children</code> even if we're not using it. This happens because <code>React.FC</code> implicitly sets the <code>children</code> and some other values.</div></div>
 
@@ -62,19 +62,19 @@ const App = ({ text }: AppProps) => {
 
 </div></div>
 
-<div class="element-block ml-0"><div class="flex-1">There are multiple types we could use for the component's return type: <code>React.ReactElement</code>, <code>JSX.Element</code>, <code>React.ReactNode</code>. To not be too wide or too narrow with the typings, it's better to just rely on <a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/typescript"><span class="text-gray-500 group-hover:text-teal-900">[[</span>TypeScript<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>'s inference by not adding an explicit type.</div></div>
+<div class="element-block ml-0"><div class="flex-1">There are multiple types we could use for the component's return type: <code>React.ReactElement</code>, <code>JSX.Element</code>, <code>React.ReactNode</code>. To not be too wide or too narrow with the typings, it's better to just rely on <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/typescript"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>TypeScript<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>'s inference by not adding an explicit type.</div></div>
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/pages/kent-c.-dodds"><span class="text-gray-500 group-hover:text-teal-900">[[</span>Kent C. Dodds<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="/journals/2021-03-04"><span class="text-gray-500 group-hover:text-teal-900">[[</span>2021-03-04<span class="text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>How to write a React Component in TypeScript</em>. <a class="text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-pink-400" href="https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript" target="_blank" rel="noopener noreferrer">https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript</a></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/kent-c.-dodds"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Kent C. Dodds<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-03-04"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-03-04<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>How to write a React Component in TypeScript</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript" target="_blank" rel="noopener noreferrer">https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript</a></div></div>
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-gray-400" href="/pages/typescript">#TypeScript</a></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/typescript">#TypeScript</a></div></div>
 
-<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-400">ID:</strong> 210614085847</div></div>
+<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210614085847</div></div>
 </div>
 
 
 <section class="mt-8 space-y-2">
-<header class="text-gray-400">Linked references</header>
-<a class="block bg-gray-800 p-4 rounded text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 hover:ring-offset-gray-900 hover:ring-teal-400" href="/journals/2021-06-14">2021-06-14</a>
+<header class="text-gray-500 dark:text-gray-400">Linked references</header>
+<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-14">2021-06-14</a>
   </section>
