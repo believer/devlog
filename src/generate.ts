@@ -92,7 +92,9 @@ export const getContent = (
         }
 
         if (titleType === 'Code') {
-          row += inlineCode(titleContent)
+          row += inlineCode(
+            titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          )
         }
 
         if (titleType === 'Link') {

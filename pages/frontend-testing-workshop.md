@@ -21,7 +21,7 @@ excerpt: |
 
 <div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold">Context</h3></div></div>
 
-<div class="element-block ml-4"><div class="flex-1">We'll start off by testing <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>'s context. The full starting code is available in the <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://github.com/believer/frontend-testing-workshop" target="_blank" rel="noopener noreferrer">testing repo</a>. The relevant code are these three files where we have set up a tiny application with a <code><Text></code> component that gets a text from the context and displays it to the user.</div></div>
+<div class="element-block ml-4"><div class="flex-1">We'll start off by testing <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>'s context. The full starting code is available in the <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://github.com/believer/frontend-testing-workshop" target="_blank" rel="noopener noreferrer">testing repo</a>. The relevant code are these three files where we have set up a tiny application with a <code>&lt;Text&gt;</code> component that gets a text from the context and displays it to the user.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">
 
@@ -99,7 +99,7 @@ test('renders app', () => {
 
 </div></div>
 
-<div class="element-block ml-4"><div class="flex-1">Next, we want to try render the <code><Text></code> component in isolation and here's where we'll start seeing some issues. If we just try to render the component, <code>render(<Text />)</code>, and use the same assertion as above we'll get an error that the text can't be found. This happens because the <code><Text></code> component is no longer wrapped in a React context and it get's the default value for <code>text</code> which we defined in when creating the context using <code>React.createContext</code>.</div></div>
+<div class="element-block ml-4"><div class="flex-1">Next, we want to try render the <code>&lt;Text&gt;</code> component in isolation and here's where we'll start seeing some issues. If we just try to render the component, <code>render(&lt;Text /&gt;)</code>, and use the same assertion as above we'll get an error that the text can't be found. This happens because the <code>&lt;Text&gt;</code> component is no longer wrapped in a React context and it get's the default value for <code>text</code> which we defined in when creating the context using <code>React.createContext</code>.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">To get around this we'll need some way of getting the data to the component. Our first attempt will be to mock the response of the custom hook, <code>useApp</code>, that we've defined for our context.</div></div>
 
@@ -132,7 +132,7 @@ test('Text using a mocked useApp hook', () => {
 
 </div></div>
 
-<div class="element-block ml-4"><div class="flex-1">This works fine. However, if we were to remove the <code>text</code> prop from our first test and only use <code>render(<App />)</code> that test would still pass! That is because we've effectively mocked the entire context for all tests, which is not really want we want.</div></div>
+<div class="element-block ml-4"><div class="flex-1">This works fine. However, if we were to remove the <code>text</code> prop from our first test and only use <code>render(&lt;App /&gt;)</code> that test would still pass! That is because we've effectively mocked the entire context for all tests, which is not really want we want.</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">Let's try it another way. This time by adding the context inside our test.</div></div>
 
