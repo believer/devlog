@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/believer/devlog/compare/v1.7.1...v1.7.2) (2021-06-15)
+
+
+### Bug Fixes
+
+* handle tags in inline code blocks ([1c1e304](https://github.com/believer/devlog/commit/1c1e304cd2852d539e8bd0d0e52000f2d1e2a546))
+
 ## [1.7.1](https://github.com/believer/devlog/compare/v1.7.0...v1.7.1) (2021-06-15)
 
 
