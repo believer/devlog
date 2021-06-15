@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/believer/devlog/compare/v1.6.0...v1.7.0) (2021-06-15)
+
+
+### Features
+
+* add frontend testing workshop ([4387073](https://github.com/believer/devlog/commit/438707395a3482e7e7d9b0ec48efe5adaeffdd3f))
+* generate headings for h1, h2 and h3 ([4c7fa6f](https://github.com/believer/devlog/commit/4c7fa6f639d54677b7a9b9037cfda740a08213cf))
+
 # [1.6.0](https://github.com/believer/devlog/compare/v1.5.0...v1.6.0) (2021-06-15)
 
 
