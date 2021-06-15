@@ -1,4 +1,6 @@
-import { collectReferences, getContent, references } from '../generate'
+import { getContent } from '../generate'
+
+jest.mock('fs/promises')
 
 describe('#getContent', () => {
   const data = [
