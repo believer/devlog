@@ -1,6 +1,6 @@
 import data from '../data.json'
-import fs from 'fs'
-import { promisify } from 'util'
+import { writeFile, mkdir, access } from 'fs/promises'
+import { constants } from 'fs'
 import path from 'path'
 import {
   boldText,
@@ -15,17 +15,16 @@ import {
 } from './elements'
 import { isJournal, slugify } from './utils'
 
-const writeFile = promisify(fs.writeFile)
-const createDirectory = promisify(fs.mkdir)
-
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
 
 export const references = new Map()
 
 const ensureDirectory = async (dir: string) => {
-  if (!fs.existsSync(dir)) {
-    await createDirectory(dir)
+  try {
+    await access(dir, constants.R_OK)
+  } catch {
+    await mkdir(dir)
   }
 }
 
