@@ -1,7 +1,5 @@
 import { getContent } from '../generate'
 
-jest.mock('fs/promises')
-
 describe('#getContent', () => {
   const data = [
     {
