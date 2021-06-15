@@ -66,7 +66,25 @@ export const getContent = (
 
       for (const [titleType, titleContent] of child.title) {
         if (titleType === 'Plain') {
-          row += titleContent
+          let headingStart = ''
+          let headingEnd = ''
+
+          if (child.content.startsWith('# ')) {
+            headingStart = `<h1 class="text-2xl font-semibold">`
+            headingEnd = `</h1>`
+          }
+
+          if (child.content.startsWith('## ')) {
+            headingStart = `<h2 class="text-xl font-semibold">`
+            headingEnd = `</h2>`
+          }
+
+          if (child.content.startsWith('### ')) {
+            headingStart = `<h3 class="text-lg font-semibold">`
+            headingEnd = `</h3>`
+          }
+
+          row += headingStart + titleContent + headingEnd
         }
 
         if (titleType === 'Tag') {
