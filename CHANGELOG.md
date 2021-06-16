@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/believer/devlog/compare/v1.8.0...v1.8.1) (2021-06-16)
+
+
+### Bug Fixes
+
+* remove page links from meta description ([298789c](https://github.com/believer/devlog/commit/298789c86643b85c9c9acde06f9152b2bd94ee39))
+
 # [1.8.0](https://github.com/believer/devlog/compare/v1.7.3...v1.8.0) (2021-06-16)
 
 
