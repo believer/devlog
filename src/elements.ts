@@ -53,3 +53,23 @@ export const image = (src: string) => {
 export const warning = (text: string) => {
   return `<div class="text-yellow-700 dark:text-yellow-500">${text}</div>`
 }
+
+export const quote = (content: any) => {
+  let text = ''
+
+  for (const [contentType, contentText] of content[0][1]) {
+    if (contentType === 'Plain') {
+      text += contentText
+    }
+
+    if (contentType === 'Emphasis' && contentText[0][0] === 'Bold') {
+      text += boldText(contentText[1][0][1])
+    }
+
+    if (contentType === 'Link' && contentText.url[0] === 'Complex') {
+      text += externalLink(contentText.url[1], contentText.label[0][1])
+    }
+  }
+
+  return `<blockquote class="bg-gray-100 border-l-4 border-indigo-600 dark:border-indigo-400 dark:bg-gray-800 p-4">${text}</blockquote>`
+}

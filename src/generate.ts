@@ -10,6 +10,7 @@ import {
   inlineCode,
   italicText,
   link,
+  quote,
   tag,
   warning,
 } from './elements'
@@ -53,6 +54,10 @@ export const getContent = (
 
         if (titleType === 'Custom' && titleContent === 'warning') {
           row += warning(rest[2])
+        }
+
+        if (titleType === 'Quote') {
+          row += quote(titleContent)
         }
 
         contents.push(row + '</div></div>')
