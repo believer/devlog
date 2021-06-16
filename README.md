@@ -8,7 +8,7 @@ This is my attempt at learning in public and the site is available at https://de
 - `npm install`
 - Export your graph as JSON from Logseq. Save the file as `data.json` in the
   root of the project
-- Run `npm start` to generate the files into the folders `/pages` and `/journals`)
+- Run `npm start` to generate the files into the folders `/pages` and `/journals`
 - Run `npm run css:prod` to compile the CSS
 - Run `npm run serve` to start eleventy
 - Go to http://localhost:8080
