@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '60c8fcdc-1f65-4acd-af4b-6e7fcc95e364'
+id: '60c9bab5-ce69-4a33-87ae-6d01825cb6d6'
 title: 'Frontend testing workshop'
 tags: page
 excerpt: |
