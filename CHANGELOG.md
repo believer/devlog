@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/believer/devlog/compare/v1.8.1...v1.9.0) (2021-06-16)
+
+
+### Bug Fixes
+
+* blockquotes ([bc11ce2](https://github.com/believer/devlog/commit/bc11ce229ff3229311ae98b1e63c59e463445378))
+
+
+### Features
+
+* add code review ([3187420](https://github.com/believer/devlog/commit/3187420dc28fd6ec8f3a949a21b1703207cbbdd9))
+
 ## [1.8.1](https://github.com/believer/devlog/compare/v1.8.0...v1.8.1) (2021-06-16)
 
 
