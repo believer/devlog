@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/believer/devlog/compare/v1.9.2...v1.10.0) (2021-06-16)
+
+
+### Features
+
+* update frontend testing workshop ([49e8953](https://github.com/believer/devlog/commit/49e89538fe7aa017e798b348ee68679508d0efbe))
+
 ## [1.9.2](https://github.com/believer/devlog/compare/v1.9.1...v1.9.2) (2021-06-16)
 
 
