@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/believer/devlog/compare/v1.9.1...v1.9.2) (2021-06-16)
+
+
+### Bug Fixes
+
+* objects inside code block ([31d9f74](https://github.com/believer/devlog/commit/31d9f74b9ff791359db06e29d7586aa41e42b217))
+
 ## [1.9.1](https://github.com/believer/devlog/compare/v1.9.0...v1.9.1) (2021-06-16)
 
 
