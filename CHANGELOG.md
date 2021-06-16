@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/believer/devlog/compare/v1.7.3...v1.8.0) (2021-06-16)
+
+
+### Features
+
+* add anchor links inside page ([9515506](https://github.com/believer/devlog/commit/9515506b82498f59de4ac6cdc6b048f42ee8991b))
+
 ## [1.7.3](https://github.com/believer/devlog/compare/v1.7.2...v1.7.3) (2021-06-15)
 
 
