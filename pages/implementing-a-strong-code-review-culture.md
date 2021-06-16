@@ -13,7 +13,7 @@ excerpt: |
 <div class="space-y-3">
 <div class="element-block ml-0"><div class="flex-1">Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code. A strong code review culture will give us better code and better developers.</div></div>
 
-<div class="element-block ml-0"><div class="flex-1">The <strong class="text-rose-600 dark:text-rose-400">why</strong> is more important than the <strong class="text-rose-600 dark:text-rose-400">how</strong>. Take the time to write a thorough <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>PR<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> description that explains the code change. Include documentation and links if they are relevant. You might not be stay at the company forever and if you leave the context of the PR leaves with you. If you do stick around, your future self will thank you.</div></div>
+<div class="element-block ml-0"><div class="flex-1">The <strong class="text-rose-600 dark:text-rose-400">why</strong> is more important than the <strong class="text-rose-600 dark:text-rose-400">how</strong>. Take the time to write a thorough <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>PR<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> description that explains the code change. Include documentation and links if they are relevant. You might not stay at the company forever and if you leave the context of the PR leaves with you. If you do stick around, your future self will thank you.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">Written communication can often be perceived as negative. Review what you've written before publishing. Try to read it as the the one who will receive the text and try to make it feel as positive as possible. Use the <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/socratic-method"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Socratic method<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a></div></div>
 
@@ -23,7 +23,7 @@ excerpt: |
 
 
 
-<div class="element-block ml-0"><div class="flex-1">Conflicts will arise and are not necessarily a bad thing. If we don't agree, be open to discuss the issues and the process.</div></div>
+<div class="element-block ml-0"><div class="flex-1">Conflicts will arise and are not necessarily a bad thing. If we don't agree, be open to discussing the issues and the process.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">What to review</div></div>
 
