@@ -290,6 +290,11 @@ test('renders data', async () => {
   // document contains the text we're looking for. If it takes too long
   // the test will timeout.
   expect(await screen.findByText(/luke skywalker/i)).toBeInTheDocument()
+  
+  // This assertion checks that we're no longer rendering the loading state.
+  // It uses queryBy* since a getBy* or findBy* would throw errors if they
+  // can't find the element
+  expect(screen.queryByText(/loading.../)).not.toBeInTheDocument()
 })
 ```
 
@@ -303,7 +308,10 @@ test('renders data', async () => {
 beforeEach(() => {
   global.fetch = jest.fn().mockResolvedValue({
     json: jest.fn().mockResolvedValue({
-      name: 'Luke Skywalker',
+      // Use a name we know won't be returned from the API to ensure
+      // that we're calling our mock. Be sure to update the assertion
+      // as well. Kudos to a colleague for pointing this out!
+      name: 'Mocked Skywalker',
     }),
   })
 })
