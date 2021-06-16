@@ -68,19 +68,20 @@ export const getContent = (
         if (titleType === 'Plain') {
           let headingStart = ''
           let headingEnd = ''
+          const slug = slugify(titleContent)
 
           if (child.content.startsWith('# ')) {
-            headingStart = `<h1 class="text-2xl font-semibold">`
+            headingStart = `<h1 class="text-2xl font-semibold" id="${slug}">`
             headingEnd = `</h1>`
           }
 
           if (child.content.startsWith('## ')) {
-            headingStart = `<h2 class="text-xl font-semibold">`
+            headingStart = `<h2 class="text-xl font-semibold" id="${slug}">`
             headingEnd = `</h2>`
           }
 
           if (child.content.startsWith('### ')) {
-            headingStart = `<h3 class="text-lg font-semibold">`
+            headingStart = `<h3 class="text-lg font-semibold" id="${slug}">`
             headingEnd = `</h3>`
           }
 

@@ -19,7 +19,17 @@ excerpt: |
 
 <div class="element-block ml-0"><div class="flex-1">We're using <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/jest"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Jest<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/testing-library"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Testing Library<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, and <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react-query"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React Query<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>.</div></div>
 
-<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold">Context</h3></div></div>
+<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold" id="sections">Sections</h3></div></div>
+
+<div class="element-block ml-4"><div class="flex-1"><a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="#context">Context</a></div></div>
+
+<div class="element-block ml-4"><div class="flex-1"><a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="#async">Async</a></div></div>
+
+<div class="element-block ml-4"><div class="flex-1"><a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="#custom-hooks">Custom-hooks</a></div></div>
+
+
+
+<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold" id="context">Context</h3></div></div>
 
 <div class="element-block ml-4"><div class="flex-1">We'll start off by testing <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>'s context. The full starting code is available in the <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://github.com/believer/frontend-testing-workshop" target="_blank" rel="noopener noreferrer">testing repo</a>. The relevant code are these three files where we have set up a tiny application with a <code>&lt;Text&gt;</code> component that gets a text from the context and displays it to the user.</div></div>
 
@@ -191,7 +201,7 @@ test('Text by importing the context', () => {
 
 
 
-<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold">Async</h3></div></div>
+<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold" id="async">Async</h3></div></div>
 
 <div class="element-block ml-4"><div class="flex-1">For our second testing scenario we are going to test an asynchronous hook. For this we'll use <code>react-query</code>'s <code>useQuery</code> hook and fetch a character from the Star Wars <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/api"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>API<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. The code is on the branch <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://github.com/believer/frontend-testing-workshop/tree/2-async" target="_blank" rel="noopener noreferrer">2-async</a>. This is what we're starting out with</div></div>
 
@@ -305,7 +315,7 @@ beforeEach(() => {
 
 
 
-<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold">Custom hooks</h3></div></div>
+<div class="element-block ml-0"><div class="flex-1"><h3 class="text-lg font-semibold" id="custom-hooks">Custom hooks</h3></div></div>
 
 <div class="element-block ml-4"><div class="flex-1">For our third and final scenario we'll test a custom React hook. The hook we're testing is trivial, but we'll add some features using <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/tdd"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>TDD<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> as we go along. The code is available on the branch <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://github.com/believer/frontend-testing-workshop/tree/3-hooks" target="_blank" rel="noopener noreferrer">3-hooks</a> and the two files we'll use are</div></div>
 

@@ -3,7 +3,17 @@ import { isJournal, removeLinkRef, slugify } from './utils'
 export const link = (title: string) => {
   const href = `/${isJournal(title) ? 'journals' : 'pages'}/${slugify(title)}`
 
+  if (title.startsWith('#')) {
+    return internalLink(title)
+  }
+
   return `<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="${href}"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>${title}<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>`
+}
+
+export const internalLink = (title: string) => {
+  return `<a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="#${slugify(
+    title
+  )}">${title.substr(1)}</a>`
 }
 
 export const externalLink = (
