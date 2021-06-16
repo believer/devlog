@@ -4,7 +4,7 @@ id: '60c5b2b0-4801-4d95-8a41-7ce543575878'
 title: 'Meta viewport for mobile devices'
 tags: page
 excerpt: |
-  Mobile devices render pages in a virtual viewport, which is usually wider than the screen, and shrink the content to fit. This viewport won't work when we want to use [[Media queries]]. If the viewport is 980px and we have media queries that target 480px, they'll never fire.
+  Mobile devices render pages in a virtual viewport, which is usually wider than the screen, and shrink the content to fit. This viewport won't work when we want to use Media queries. If the viewport is 980px and we have media queries that target 480px, they'll never fire.
 
 ---
   

@@ -13,7 +13,7 @@ import {
   tag,
   warning,
 } from './elements'
-import { isJournal, slugify } from './utils'
+import { isJournal, removeLinkRef, slugify } from './utils'
 
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
@@ -192,7 +192,7 @@ tags: ${isJournal(title) ? 'journal' : 'page'}
 ${
   excerpt
     ? `excerpt: |
-  ${excerpt}
+  ${removeLinkRef(excerpt)}
 `
     : ''
 }

@@ -4,7 +4,7 @@ id: '60c86fb9-2f73-4c11-91ad-5c1c66fe2722'
 title: 'Adding types to a React component in TypeScript'
 tags: page
 excerpt: |
-  In the types for [[React]], @types/react, there's an included helper for typing components called React.FC (or the longer version React.FunctionComponent). However, there are some downsides to using this.
+  In the types for React, @types/react, there's an included helper for typing components called React.FC (or the longer version React.FunctionComponent). However, there are some downsides to using this.
 
 ---
   

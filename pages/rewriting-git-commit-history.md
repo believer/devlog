@@ -4,7 +4,7 @@ id: '60c86fb9-68f4-4006-bb4f-b948f30559be'
 title: 'Rewriting Git commit history'
 tags: page
 excerpt: |
-  If you want to fix a commit inside a [[PR]] you can use [[Git]] rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:
+  If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:
 
 ---
   

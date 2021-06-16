@@ -4,7 +4,7 @@ id: '60c8fcdc-9c74-4c1c-b77a-9d9b31e9b786'
 title: 'Jest'
 tags: page
 excerpt: |
-  Jest is a [[JavaScript]] testing framework.
+  Jest is a JavaScript testing framework.
 
 ---
   

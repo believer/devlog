@@ -4,7 +4,7 @@ id: '60c8fcdc-1f65-4acd-af4b-6e7fcc95e364'
 title: 'Frontend testing workshop'
 tags: page
 excerpt: |
-  This is a workshop in [[Frontend]] [[Testing]] that I held at [[Hemnet]]. The idea was to have it sort of like a [[Mob programming]] session so that each participant got to code and get a feel for the code instead of just sitting and listening to me talk about it.
+  This is a workshop in Frontend Testing that I held at Hemnet. The idea was to have it sort of like a Mob programming session so that each participant got to code and get a feel for the code instead of just sitting and listening to me talk about it.
 
 ---
   

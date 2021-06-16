@@ -4,7 +4,7 @@ id: '60c86fb9-acb3-444e-8451-57b8eb119bd5'
 title: 'Learning in public'
 tags: page
 excerpt: |
-  Share your knowledge and insights. To do this in the most effective way you'll need to [[Explain in plain words]]. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
+  Share your knowledge and insights. To do this in the most effective way you'll need to Explain in plain words. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
 
 ---
   
