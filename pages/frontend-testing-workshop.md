@@ -64,7 +64,7 @@ export const Text = () => {
 	  
 export default function App({ text }) {
   return (
-    <AppContext.Provider value={{ text }}>
+    <AppContext.Provider value={% raw %}{{ text }}{% endraw %}>
       <Text />
     </AppContext.Provider>
   )
@@ -158,7 +158,7 @@ test('Text by importing the context', () => {
   // Wrap our Text component in the AppContext.Provider and
   // provide it with the value we want displayed in the Text component
   render(
-    <AppContext.Provider value={{ text: 'Frontend testing is fun' }}>
+    <AppContext.Provider value={% raw %}{{ text: 'Frontend testing is fun' }}{% endraw %}>
       <Text />
     </AppContext.Provider>
   )
@@ -188,7 +188,7 @@ test('renders app', () => {
 	  
 test('Text by importing the context', () => {
   render(
-    <AppContext.Provider value={{ text: 'Frontend testing is fun' }}>
+    <AppContext.Provider value={% raw %}{{ text: 'Frontend testing is fun' }}{% endraw %}>
       <Text />
     </AppContext.Provider>
   )

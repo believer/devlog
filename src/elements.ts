@@ -37,7 +37,7 @@ export const inlineCode = (title: string) => {
 
 export const code = (code: string, language = '') => {
   return `\`\`\`${language}
-${code}\`\`\``
+${code.replace(/{{/g, '{% raw %}{{').replace(/}}/g, '}}{% endraw %}')}\`\`\``
 }
 
 export const tag = (text: string) => {
