@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/believer/devlog/compare/v1.11.0...v1.12.0) (2021-06-21)
+
+
+### Features
+
+* start today ([77c1e0f](https://github.com/believer/devlog/commit/77c1e0f1e0d127e9c3974a0e79dca972761e68e3))
+
 # [1.11.0](https://github.com/believer/devlog/compare/v1.10.0...v1.11.0) (2021-06-18)
 
 
