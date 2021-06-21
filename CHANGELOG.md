@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/believer/devlog/compare/v1.13.0...v1.13.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* typo ([87be612](https://github.com/believer/devlog/commit/87be612badf2117b25941aeeaf80b2d2d2253838))
+
 # [1.13.0](https://github.com/believer/devlog/compare/v1.12.2...v1.13.0) (2021-06-21)
 
 
