@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/believer/devlog/compare/v1.12.1...v1.12.2) (2021-06-21)
+
+
+### Bug Fixes
+
+* add some missing pages ([6f317fc](https://github.com/believer/devlog/commit/6f317fc970e7e7e444df2ebfbc5e76445cddc760))
+
 ## [1.12.1](https://github.com/believer/devlog/compare/v1.12.0...v1.12.1) (2021-06-21)
 
 
