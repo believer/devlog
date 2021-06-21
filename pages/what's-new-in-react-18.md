@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60d09960-decc-43c0-8fc1-4dfdc8d6531a'
+id: '60d0b866-0fee-408b-9616-6b069a79ba40'
 title: |
   What's new in React 18
 tags: 'page'

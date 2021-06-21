@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60d09960-c122-4668-a178-e6de81721e9f'
+id: '60d0b866-a4f7-49ab-bdc8-001d57f4c617'
 title: |
   Meta viewport for mobile devices
 tags: 'page'
