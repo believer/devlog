@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/believer/devlog/compare/v1.12.0...v1.12.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* long titles broke frontmatter ([781e3b8](https://github.com/believer/devlog/commit/781e3b8e7348d85c9da1e876dff445500918f89b))
+
 # [1.12.0](https://github.com/believer/devlog/compare/v1.11.0...v1.12.0) (2021-06-21)
 
 
