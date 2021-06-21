@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/believer/devlog/compare/v1.12.2...v1.13.0) (2021-06-21)
+
+
+### Features
+
+* add section on touch-action manipulation ([e29dc64](https://github.com/believer/devlog/commit/e29dc64059bf28d20864881e7091c660d12ca13b))
+
 ## [1.12.2](https://github.com/believer/devlog/compare/v1.12.1...v1.12.2) (2021-06-21)
 
 
