@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c9bab5-ce69-4a33-87ae-6d01825cb6d6'
+id: '60d0928c-7ef6-4fcf-b12e-4c337f87e2e3'
 title: |
   Frontend testing workshop
 tags: 'page'

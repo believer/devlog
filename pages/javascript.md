@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c1bd0a-d17b-478a-8711-7b52ff8af141'
+id: '60d0928c-bf49-414b-8a08-07170dde1922'
 title: |
   JavaScript
 tags: 'page'

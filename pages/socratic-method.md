@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c9bab5-8f64-4f57-ac91-38babb1e1305'
+id: '60d0928c-bac7-44da-94a3-e1620ad4eb49'
 title: |
   Socratic method
 tags: 'page'

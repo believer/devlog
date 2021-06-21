@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c9bab5-6648-4450-a327-29caf4491a7a'
+id: '60d0928c-3bf3-461d-bf05-e2c9ee206b96'
 title: |
   Frontend
 tags: 'page'

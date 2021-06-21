@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c9baf1-1d3e-481a-83c2-f86b13e4827d'
+id: '60d0928c-aa41-47af-9a9f-2990d9658bd5'
 title: |
   Rubocop
 tags: 'page'

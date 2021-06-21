@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60d0201a-9442-4aae-9734-c6302866c03e'
+id: '60d09960-decc-43c0-8fc1-4dfdc8d6531a'
 title: |
   What's new in React 18
 tags: 'page'
@@ -24,35 +24,35 @@ const handleClick = () => {
 }
 const [count, setCount] = React.useState(0)
 const [clicked, setClicked] = React.useState(false)
-
+	  
 // These calls are batched together and only perform
 // on re-render. This works before React 18
 const handleClick = () => {
   setCount(count + 1)
   setClicked(true)
 }
-
+	  
 // Before React 18, all three of the following cases would perform
 // two re-renders. 
 fetch('...').then(() => {
   setCount(count + 1)
   setClicked(true)
 })
-
+	  
 element.addEventlistener('click', () => {
   setCount(count + 1)
   setClicked(true) 
 })
-
+	  
 setTimeout(() => {
   setCount(count + 1)
   setClicked(true) 
 }, 1000)
-
+	  
 // If you really want the updates to not be batched you can use
 // the flushSync utility from react-dom
 import { flushSync } from 'react-dom'
-
+	  
 const handleClick = () => {
   flushSync(() => {
     setCount(count + 1)
@@ -76,10 +76,10 @@ const handleClick = () => {
 
 ```js
 import { startTransition } from 'react'
-
+	  
 // Urgent: Show what was typed
 setInputValue(value)
-
+	  
 startTransition(() => {
   // Secondary: Show results
   setSearchQuery(value)

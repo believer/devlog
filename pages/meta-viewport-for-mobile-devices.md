@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c5b2b0-4801-4d95-8a41-7ce543575878'
+id: '60d09960-c122-4668-a178-e6de81721e9f'
 title: |
   Meta viewport for mobile devices
 tags: 'page'
@@ -27,6 +27,7 @@ excerpt: |
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
+<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-21">2021-06-21</a>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/css-grid-tricks">CSS Grid tricks</a>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-10">2021-06-10</a>
   </section>
