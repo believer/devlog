@@ -189,20 +189,22 @@ const createFrontmatter = ({
   const excerpt =
     contents?.[0]?.replace(/<[^>]*>/g, '').replace(/#\w+/g, '') ?? ''
 
-  return `---
-layout: page
+  let data = `---
+layout: 'page'
 id: '${id}'
-title: '${title}'
-tags: ${isJournal(title) ? 'journal' : 'page'}
-${
-  excerpt
-    ? `excerpt: |
-  ${removeLinkRef(excerpt)}
-`
-    : ''
-}
+title: |
+  ${title}
+tags: '${isJournal(title) ? 'journal' : 'page'}'`
+
+  if (excerpt) {
+    data = `${data}
+excerpt: |
+  ${removeLinkRef(excerpt)}`
+  }
+
+  return `${data}
 ---
-  `
+`
 }
 
 const linkedReferences = (slug: string) => {

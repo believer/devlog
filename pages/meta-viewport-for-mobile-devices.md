@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c5b2b0-4801-4d95-8a41-7ce543575878'
-title: 'Meta viewport for mobile devices'
-tags: page
+title: |
+  Meta viewport for mobile devices
+tags: 'page'
 excerpt: |
   Mobile devices render pages in a virtual viewport, which is usually wider than the screen, and shrink the content to fit. This viewport won't work when we want to use Media queries. If the viewport is 980px and we have media queries that target 480px, they'll never fire.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/meta-viewport-for-mobile-devices">Meta viewport for mobile devices</a></h2>
 
 <div class="space-y-3">

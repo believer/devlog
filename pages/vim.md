@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-acc0-4418-86e4-b055fbed1061'
-title: 'Vim'
-tags: page
-
+title: |
+  Vim
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/vim">Vim</a></h2>
 
 <div class="space-y-3">

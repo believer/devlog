@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-a30b-460a-b76a-5dc17e33603c'
-title: 'TDD'
-tags: page
+title: |
+  TDD
+tags: 'page'
 excerpt: |
   Test-driven development
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/tdd">TDD</a></h2>
 
 <div class="space-y-3">

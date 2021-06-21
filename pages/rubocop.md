@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9baf1-1d3e-481a-83c2-f86b13e4827d'
-title: 'Rubocop'
-tags: page
-
+title: |
+  Rubocop
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/rubocop">Rubocop</a></h2>
 
 <div class="space-y-3">

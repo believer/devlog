@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c1bd0a-8579-4f1b-bad6-a7a928bd23ca'
-title: 'Index signature'
-tags: page
+title: |
+  Index signature
+tags: 'page'
 excerpt: |
   Documentation
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/index-signature">Index signature</a></h2>
 
 <div class="space-y-3">

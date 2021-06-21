@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-b7b5-42e6-bf7e-82d29dbce0b4'
-title: 'Git'
-tags: page
-
+title: |
+  Git
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/git">Git</a></h2>
 
 <div class="space-y-3">

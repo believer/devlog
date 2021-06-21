@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60d0201a-9442-4aae-9734-c6302866c03e'
-title: 'What's new in React 18'
-tags: page
+title: |
+  What's new in React 18
+tags: 'page'
 excerpt: |
   Automatic batching
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/what's-new-in-react-18">What's new in React 18</a></h2>
 
 <div class="space-y-3">

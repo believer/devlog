@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-6550-4243-9a6e-ddab8b7d11dd'
-title: 'API'
-tags: page
-
+title: |
+  API
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/api">API</a></h2>
 
 <div class="space-y-3">

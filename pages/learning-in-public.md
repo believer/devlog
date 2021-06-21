@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-acb3-444e-8451-57b8eb119bd5'
-title: 'Learning in public'
-tags: page
+title: |
+  Learning in public
+tags: 'page'
 excerpt: |
   Share your knowledge and insights. To do this in the most effective way you'll need to Explain in plain words. This "forces" you to refine your thinking until you can explain the topic in the most accessible way.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/learning-in-public">Learning in public</a></h2>
 
 <div class="space-y-3">

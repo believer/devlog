@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-f4cd-4421-8914-a4776dbef891'
-title: 'Implementing a strong code-review culture'
-tags: page
+title: |
+  Implementing a strong code-review culture
+tags: 'page'
 excerpt: |
   Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code. A strong code review culture will give us better code and better developers.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/implementing-a-strong-code-review-culture">Implementing a strong code-review culture</a></h2>
 
 <div class="space-y-3">

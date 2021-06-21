@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c1bd0a-e56d-4e18-85ca-d2db257dcad7'
-title: 'Record utility'
-tags: page
+title: |
+  Record utility
+tags: 'page'
 excerpt: |
   Documentation
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/record-utility">Record utility</a></h2>
 
 <div class="space-y-3">

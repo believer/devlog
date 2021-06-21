@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-25c5-4fe9-a559-b0fa872a1891'
-title: 'PR'
-tags: page
-
+title: |
+  PR
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr">PR</a></h2>
 
 <div class="space-y-3">

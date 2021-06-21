@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-adf2-4c52-84f5-4ced53b00edd'
-title: 'React'
-tags: page
+title: |
+  React
+tags: 'page'
 excerpt: |
   Documentation
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react">React</a></h2>
 
 <div class="space-y-3">

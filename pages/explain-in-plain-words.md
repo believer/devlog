@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-17cd-48c7-8d67-7d70daaea710'
-title: 'Explain in plain words'
-tags: page
+title: |
+  Explain in plain words
+tags: 'page'
 excerpt: |
   An efficient way of testing your knowledge is to try and explain the subject in simple words. If you're unable to do that you haven't understood the subject well enough. Identify where your knowledge is lacking and study those areas more until you can explain them in simple words.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/explain-in-plain-words">Explain in plain words</a></h2>
 
 <div class="space-y-3">

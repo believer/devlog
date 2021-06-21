@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-842e-4067-9c15-32c7552215b9'
-title: 'Derek Prior'
-tags: page
-
+title: |
+  Derek Prior
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/derek-prior">Derek Prior</a></h2>
 
 <div class="space-y-3">

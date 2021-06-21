@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-ce69-4a33-87ae-6d01825cb6d6'
-title: 'Frontend testing workshop'
-tags: page
+title: |
+  Frontend testing workshop
+tags: 'page'
 excerpt: |
   This is a workshop in Frontend Testing that I held at Hemnet. The idea was to have it sort of like a Mob programming session so that each participant got to code and get a feel for the code instead of just sitting and listening to me talk about it.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/frontend-testing-workshop">Frontend testing workshop</a></h2>
 
 <div class="space-y-3">

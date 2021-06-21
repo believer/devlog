@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9baf1-8567-4a15-a408-55a80deb22be'
-title: 'ESLint'
-tags: page
-
+title: |
+  ESLint
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/eslint">ESLint</a></h2>
 
 <div class="space-y-3">

@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60d02598-db47-4680-9966-acc86e39f62e'
-title: 'SSR'
-tags: page
+title: |
+  SSR
+tags: 'page'
 excerpt: |
   Server-side rendering
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/ssr">SSR</a></h2>
 
 <div class="space-y-3">

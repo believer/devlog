@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-68f4-4006-bb4f-b948f30559be'
-title: 'Rewriting Git commit history'
-tags: page
+title: |
+  Rewriting Git commit history
+tags: 'page'
 excerpt: |
   If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/rewriting-git-commit-history">Rewriting Git commit history</a></h2>
 
 <div class="space-y-3">

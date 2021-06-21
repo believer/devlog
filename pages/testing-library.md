@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-cd1c-469b-b1ff-d86e76f3fe1f'
-title: 'Testing Library'
-tags: page
-
+title: |
+  Testing Library
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/testing-library">Testing Library</a></h2>
 
 <div class="space-y-3">

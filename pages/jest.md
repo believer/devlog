@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c9bab5-d6c9-4717-bc63-32fb0f51d451'
-title: 'Jest'
-tags: page
+title: |
+  Jest
+tags: 'page'
 excerpt: |
   Jest is a JavaScript testing framework.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/jest">Jest</a></h2>
 
 <div class="space-y-3">

@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c1bd0a-4f76-4432-98aa-c0fb190b9be5'
-title: 'Max Rozen'
-tags: page
+title: |
+  Max Rozen
+tags: 'page'
 excerpt: |
   Twitter
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/max-rozen">Max Rozen</a></h2>
 
 <div class="space-y-3">

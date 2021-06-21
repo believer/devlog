@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: 'page'
 id: '60c1bd0a-4a70-4c8f-b2f6-3abe7add4cf0'
-title: 'Nielsen Norman Group'
-tags: page
-
+title: |
+  Nielsen Norman Group
+tags: 'page'
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/nielsen-norman-group">Nielsen Norman Group</a></h2>
 
 <div class="space-y-3">

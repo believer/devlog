@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: 'page'
 id: '60c86fb9-2f73-4c11-91ad-5c1c66fe2722'
-title: 'Adding types to a React component in TypeScript'
-tags: page
+title: |
+  Adding types to a React component in TypeScript
+tags: 'page'
 excerpt: |
   In the types for React, @types/react, there's an included helper for typing components called React.FC (or the longer version React.FunctionComponent). However, there are some downsides to using this.
-
 ---
-  
+
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/adding-types-to-a-react-component-in-typescript">Adding types to a React component in TypeScript</a></h2>
 
 <div class="space-y-3">
