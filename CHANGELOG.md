@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/believer/devlog/compare/v1.15.1...v1.16.0) (2021-06-22)
+
+
+### Features
+
+* add abortcontroller page ([5328ef5](https://github.com/believer/devlog/commit/5328ef504be6dfcd5ab798b3e2b88e2a6f90e859))
+
 ## [1.15.1](https://github.com/believer/devlog/compare/v1.15.0...v1.15.1) (2021-06-22)
 
 
