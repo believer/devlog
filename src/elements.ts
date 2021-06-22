@@ -36,8 +36,12 @@ export const inlineCode = (title: string) => {
 }
 
 export const code = (code: string, language = '') => {
-  return `\`\`\`${language}
-${code.replace(/{{/g, '{% raw %}{{').replace(/}}/g, '}}{% endraw %}')}\`\`\``
+  const snippet = code
+    .replace(/{{/g, '{% raw %}{{')
+    .replace(/}}/g, '}}{% endraw %}')
+
+  return `\n\n\`\`\`${language}
+${snippet}\`\`\`\n\n`
 }
 
 export const tag = (text: string) => {
@@ -72,4 +76,27 @@ export const quote = (content: any) => {
   }
 
   return `<blockquote class="bg-gray-100 border-l-4 border-indigo-600 dark:border-indigo-400 dark:bg-gray-800 p-4">${text}</blockquote>`
+}
+
+export const plain = (text: string, child: any): string => {
+  let headingStart = ''
+  let headingEnd = ''
+  const slug = slugify(text)
+
+  if (child.content.startsWith('# ')) {
+    headingStart = `<h1 class="text-2xl font-semibold" id="${slug}">`
+    headingEnd = `</h1>`
+  }
+
+  if (child.content.startsWith('## ')) {
+    headingStart = `<h2 class="text-xl font-semibold" id="${slug}">`
+    headingEnd = `</h2>`
+  }
+
+  if (child.content.startsWith('### ')) {
+    headingStart = `<h3 class="text-lg font-semibold" id="${slug}">`
+    headingEnd = `</h3>`
+  }
+
+  return headingStart + text + headingEnd
 }

@@ -1,5 +1,4 @@
-import { constants } from 'fs'
-import { access, mkdir, writeFile } from 'fs/promises'
+import { writeFile } from 'fs/promises'
 import path from 'path'
 import data from '../data.json'
 import {
@@ -10,22 +9,93 @@ import {
   inlineCode,
   italicText,
   link,
+  plain,
   quote,
   tag,
   warning,
 } from './elements'
-import { isJournal, removeLinkRef, slugify } from './utils'
+import { collectReferences, references } from './references'
+import { EmphasisType, LinkType, Type } from './types'
+import { ensureDirectory, isJournal, removeLinkRef, slugify } from './utils'
 
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
 
-export const references = new Map()
+const nodeContent = (child: any, contents: any, level: number): any => {
+  if (child.body?.length > 0 && child.body?.[0][0] !== 'Horizontal_Rule') {
+    let row = `<div class="element-block ml-${level * 4}"><div class="flex-1">`
 
-const ensureDirectory = async (dir: string) => {
-  try {
-    await access(dir, constants.R_OK)
-  } catch {
-    await mkdir(dir)
+    for (const [titleType, titleContent, ...rest] of child.body) {
+      if (titleType === Type.Src) {
+        row += `${code(titleContent.lines.join(''), titleContent.language)}`
+      }
+
+      if (titleType === Type.Custom && titleContent === 'warning') {
+        row += warning(rest[2])
+      }
+
+      if (titleType === Type.Quote) {
+        row += quote(titleContent)
+      }
+
+      contents.push(row + '</div></div>')
+    }
+  }
+
+  if (child.title?.length > 0) {
+    let row = `<div class="element-block ml-${level * 4}"><div class="flex-1">`
+
+    for (const [titleType, titleContent] of child.title) {
+      if (titleType === Type.Plain) {
+        row += plain(titleContent, child)
+      }
+
+      if (titleType === Type.Tag) {
+        row += tag(titleContent)
+      }
+
+      if (titleType === Type.Code) {
+        row += inlineCode(
+          titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        )
+      }
+
+      if (titleType === Type.Link) {
+        const linkType = titleContent.url[0]
+        const url = titleContent.url[1]
+
+        switch (linkType) {
+          case LinkType.Search:
+            row += link(url)
+            break
+
+          case LinkType.Complex:
+            row += externalLink(url, titleContent.label[0][1])
+            break
+
+          case LinkType.File:
+            row += image(url)
+            break
+        }
+      }
+
+      if (titleType === Type.Emphasis) {
+        const emphasisType = titleContent[0][0]
+        const text = titleContent[1][0][1]
+
+        switch (emphasisType) {
+          case EmphasisType.Bold:
+            row += boldText(text)
+            break
+
+          case EmphasisType.Italic:
+            row += italicText(text)
+            break
+        }
+      }
+    }
+
+    contents.push(row + '</div></div>')
   }
 }
 
@@ -39,99 +109,7 @@ export const getContent = (
       continue
     }
 
-    if (child.body?.length > 0 && child.body?.[0][0] !== 'Horizontal_Rule') {
-      let row = `<div class="element-block ml-${
-        level * 4
-      }"><div class="flex-1">`
-
-      for (const [titleType, titleContent, ...rest] of child.body) {
-        if (titleType === 'Src') {
-          row += `\n\n${code(
-            titleContent.lines.join(''),
-            titleContent.language
-          )}\n\n`
-        }
-
-        if (titleType === 'Custom' && titleContent === 'warning') {
-          row += warning(rest[2])
-        }
-
-        if (titleType === 'Quote') {
-          row += quote(titleContent)
-        }
-
-        contents.push(row + '</div></div>')
-      }
-    }
-
-    if (child.title?.length > 0) {
-      let row = `<div class="element-block ml-${
-        level * 4
-      }"><div class="flex-1">`
-
-      for (const [titleType, titleContent] of child.title) {
-        if (titleType === 'Plain') {
-          let headingStart = ''
-          let headingEnd = ''
-          const slug = slugify(titleContent)
-
-          if (child.content.startsWith('# ')) {
-            headingStart = `<h1 class="text-2xl font-semibold" id="${slug}">`
-            headingEnd = `</h1>`
-          }
-
-          if (child.content.startsWith('## ')) {
-            headingStart = `<h2 class="text-xl font-semibold" id="${slug}">`
-            headingEnd = `</h2>`
-          }
-
-          if (child.content.startsWith('### ')) {
-            headingStart = `<h3 class="text-lg font-semibold" id="${slug}">`
-            headingEnd = `</h3>`
-          }
-
-          row += headingStart + titleContent + headingEnd
-        }
-
-        if (titleType === 'Tag') {
-          row += tag(titleContent)
-        }
-
-        if (titleType === 'Code') {
-          row += inlineCode(
-            titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-          )
-        }
-
-        if (titleType === 'Link') {
-          const linkType = titleContent.url[0]
-
-          switch (linkType) {
-            case 'Search':
-              row += link(titleContent.url[1])
-              break
-
-            case 'Complex':
-              row += externalLink(titleContent.url[1], titleContent.label[0][1])
-              break
-
-            case 'File':
-              row += image(titleContent.url[1])
-              break
-          }
-        }
-
-        if (titleType === 'Emphasis' && titleContent[0][0] === 'Bold') {
-          row += boldText(titleContent[1][0][1])
-        }
-
-        if (titleType === 'Emphasis' && titleContent[0][0] === 'Italic') {
-          row += italicText(titleContent[1][0][1])
-        }
-      }
-
-      contents.push(row + '</div></div>')
-    }
+    nodeContent(child, contents, level)
 
     if (child.body?.[0]?.[0] === 'Horizontal_Rule') {
       contents.push('<hr class="border-gray-700 !my-5" />')
@@ -145,36 +123,6 @@ export const getContent = (
   }
 
   return contents
-}
-
-const addReference = (ref: string, title: string) => {
-  if (references.has(ref)) {
-    const current = references.get(ref)
-    references.set(ref, current.add(title))
-  } else {
-    const newSet = new Set()
-    references.set(ref, newSet.add(title))
-  }
-}
-
-export const collectReferences = (children: any, title: string) => {
-  for (const child of children) {
-    if (child.title?.length > 0) {
-      for (const [titleType, titleContent] of child.title) {
-        if (titleType === 'Link' && titleContent.url[0] === 'Search') {
-          addReference(slugify(titleContent.url[1]), title)
-        } else if (titleType === 'Tag') {
-          addReference(slugify(titleContent), title)
-        }
-      }
-
-      if (child.children.length > 0) {
-        collectReferences(child.children, title)
-      } else {
-        continue
-      }
-    }
-  }
 }
 
 const createFrontmatter = ({
@@ -228,6 +176,7 @@ ${linksForPage}
 }
 
 const run = async () => {
+  // Check that folders exist
   await ensureDirectory(pagesDirectory)
   await ensureDirectory(journalsDirectory)
 
