@@ -1,3 +1,16 @@
+# [1.14.0](https://github.com/believer/devlog/compare/v1.13.1...v1.14.0) (2021-06-22)
+
+
+### Bug Fixes
+
+* remove quotations from file names ([ec59bd9](https://github.com/believer/devlog/commit/ec59bd932839ae4de8f1197cbe1c2be85969d4e5))
+
+
+### Features
+
+* add css shorthands and variable names ([f4ca6b0](https://github.com/believer/devlog/commit/f4ca6b0070a7b2f94bd9cf436221688048632a9f))
+* add etymology of programming ([bf8eddc](https://github.com/believer/devlog/commit/bf8eddc23295324e514734c0727709becc498fca))
+
 ## [1.13.1](https://github.com/believer/devlog/compare/v1.13.0...v1.13.1) (2021-06-21)
 
 
