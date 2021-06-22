@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60c86fb9-17cd-48c7-8d67-7d70daaea710'
+id: '60d17ee4-242c-494b-bb08-e47eeacb4823'
 title: |
   Explain in plain words
 tags: 'page'
@@ -32,5 +32,6 @@ excerpt: |
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/learning-in-public">Learning in public</a>
+<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-22">2021-06-22</a>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-11">2021-06-11</a>
   </section>

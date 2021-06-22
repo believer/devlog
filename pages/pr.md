@@ -1,20 +1,23 @@
 ---
 layout: 'page'
-id: '60d0928c-f959-44de-bc83-0ec1ee93b6be'
+id: '60d17ee4-77f5-4f42-9caa-9f0fd59ad62b'
 title: |
   PR
 tags: 'page'
+excerpt: |
+  A pull request
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr">PR</a></h2>
 
 <div class="space-y-3">
-
+<div class="element-block ml-0"><div class="flex-1">A pull request</div></div>
 </div>
 
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
+<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-22">2021-06-22</a>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/rewriting-git-commit-history">Rewriting Git commit history</a>
 <a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/implementing-a-strong-code-review-culture">Implementing a strong code-review culture</a>
   </section>

@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-id: '60d17bf7-e194-46cd-9434-88e19a82c5ab'
+id: '60d17ee4-077f-4ebb-9da8-d048ad7d1764'
 title: |
   Grace Hopper
 tags: 'page'
@@ -15,5 +15,5 @@ tags: 'page'
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
-<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/etymology-of-programming">Etymology of Programming</a>
+<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/the-etymology-of-programming">The Etymology of Programming</a>
   </section>

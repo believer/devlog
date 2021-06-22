@@ -8,7 +8,7 @@ excerpt: |
   Automatic batching
 ---
 
-<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/what's-new-in-react-18">What's new in React 18</a></h2>
+<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/whats-new-in-react-18">What's new in React 18</a></h2>
 
 <div class="space-y-3">
 <div class="element-block ml-0"><div class="flex-1"><h2 class="text-xl font-semibold" id="automatic-batching">Automatic batching</h2></div></div>
