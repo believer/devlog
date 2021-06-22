@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/believer/devlog/compare/v1.15.0...v1.15.1) (2021-06-22)
+
+
+### Bug Fixes
+
+* add mdn ([6e60750](https://github.com/believer/devlog/commit/6e60750c11d1a7e3ca657480e3361e48606d4de7))
+
 # [1.15.0](https://github.com/believer/devlog/compare/v1.14.0...v1.15.0) (2021-06-22)
 
 
