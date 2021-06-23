@@ -14,16 +14,20 @@ import {
   tag,
   warning,
 } from './elements'
+import { createFrontmatter } from './frontmatter'
 import { collectReferences, references } from './references'
 import { EmphasisType, LinkType, Type } from './types'
-import { ensureDirectory, isJournal, removeLinkRef, slugify } from './utils'
+import { ensureDirectory, isJournal, slugify } from './utils'
 
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
 
+const createBlock = (level: number) =>
+  `<div class="element-block ml-${level * 4}"><div class="flex-1">`
+
 const nodeContent = (child: any, contents: any, level: number): any => {
   if (child.body?.length > 0 && child.body?.[0][0] !== 'Horizontal_Rule') {
-    let row = `<div class="element-block ml-${level * 4}"><div class="flex-1">`
+    let row = createBlock(level)
 
     for (const [titleType, titleContent, ...rest] of child.body) {
       if (titleType === Type.Src) {
@@ -43,7 +47,7 @@ const nodeContent = (child: any, contents: any, level: number): any => {
   }
 
   if (child.title?.length > 0) {
-    let row = `<div class="element-block ml-${level * 4}"><div class="flex-1">`
+    let row = createBlock(level)
 
     for (const [titleType, titleContent] of child.title) {
       if (titleType === Type.Plain) {
@@ -61,8 +65,7 @@ const nodeContent = (child: any, contents: any, level: number): any => {
       }
 
       if (titleType === Type.Link) {
-        const linkType = titleContent.url[0]
-        const url = titleContent.url[1]
+        const [linkType, url] = titleContent.url
 
         switch (linkType) {
           case LinkType.Search:
@@ -123,36 +126,6 @@ export const getContent = (
   }
 
   return contents
-}
-
-const createFrontmatter = ({
-  id,
-  title,
-  contents,
-}: {
-  id: string
-  title: string
-  contents?: Array<string>
-}) => {
-  const excerpt =
-    contents?.[0]?.replace(/<[^>]*>/g, '').replace(/#\w+/g, '') ?? ''
-
-  let data = `---
-layout: 'page'
-id: '${id}'
-title: |
-  ${title}
-tags: '${isJournal(title) ? 'journal' : 'page'}'`
-
-  if (excerpt) {
-    data = `${data}
-excerpt: |
-  ${removeLinkRef(excerpt)}`
-  }
-
-  return `${data}
----
-`
 }
 
 const linkedReferences = (slug: string) => {
