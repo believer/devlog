@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-a0a8-4822-a4c9-95e64e517070'
 title: |
   Prettier
 tags: 'page'

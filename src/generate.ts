@@ -172,7 +172,7 @@ const run = async () => {
 
     const contents = getContent(children)
 
-    const fileContent = `${createFrontmatter({ id, title, contents })}
+    const fileContent = `${createFrontmatter({ title, contents })}
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/${
       isJournal(title) ? 'journals' : 'pages'
     }/${slugify(title)}">${title}</a></h2>

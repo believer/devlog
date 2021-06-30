@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-68ba-438e-beff-94a1fbba97ee'
 title: |
   Richard Feynman
 tags: 'page'

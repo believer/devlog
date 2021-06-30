@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-740a-4c98-af75-4c3e8478ee31'
 title: |
   The Etymology of Programming
 tags: 'page'

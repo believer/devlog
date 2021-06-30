@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-bd4b-41ad-bd4f-024b6e721d24'
 title: |
   AbortController can be used to cancel multiple request
 tags: 'page'

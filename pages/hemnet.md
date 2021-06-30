@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-f7f9-4122-afdf-68f7987e7877'
 title: |
   Hemnet
 tags: 'page'

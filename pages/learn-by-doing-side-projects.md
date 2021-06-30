@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c5b2b0-e353-412b-aeea-267db4cb4f80'
 title: |
   Learn by doing side projects
 tags: 'page'

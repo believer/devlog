@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-68f4-4006-bb4f-b948f30559be'
 title: |
   Rewriting Git commit history
 tags: 'page'

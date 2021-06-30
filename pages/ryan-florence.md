@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-c36b-45b4-b6b1-279434bd01a4'
 title: |
   Ryan Florence
 tags: 'page'

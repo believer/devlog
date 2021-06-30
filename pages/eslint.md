@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-7ced-46ac-a861-51bcc2e1b489'
 title: |
   ESLint
 tags: 'page'

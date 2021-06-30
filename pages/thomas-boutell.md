@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-2cf9-4d22-b360-efe6bdd4c1bf'
 title: |
   Thomas Boutell
 tags: 'page'

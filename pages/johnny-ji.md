@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-dd1d-409d-afba-4e700c02e089'
 title: |
   Johnny Ji
 tags: 'page'

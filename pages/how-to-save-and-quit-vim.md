@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-e9be-4022-8108-ab2d4a62df14'
 title: |
   How to save and quit Vim
 tags: 'page'

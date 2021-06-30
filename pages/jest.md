@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-06bb-4c17-8f8c-43a9b008632f'
 title: |
   Jest
 tags: 'page'

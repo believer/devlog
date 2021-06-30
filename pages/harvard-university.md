@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-821a-4887-bc6a-6d7557a7643b'
 title: |
   Harvard University
 tags: 'page'

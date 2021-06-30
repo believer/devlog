@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-10e8-4b50-9edd-ba5dfb8ac8d9'
 title: |
   TIL
 tags: 'page'

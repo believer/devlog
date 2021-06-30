@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c1bd0a-fc1b-4d03-8c11-de9a79aa03cd'
 title: |
   Write useful error messages
 tags: 'page'

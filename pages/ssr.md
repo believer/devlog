@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-5f08-4ae5-aae7-fb485175df0b'
 title: |
   SSR
 tags: 'page'

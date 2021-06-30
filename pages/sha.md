@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-6bd8-4a4d-96e8-2c5de7161d07'
 title: |
   SHA
 tags: 'page'

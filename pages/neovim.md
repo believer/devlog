@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-8b99-41ae-9542-8eb3777fc67d'
 title: |
   Neovim
 tags: 'page'

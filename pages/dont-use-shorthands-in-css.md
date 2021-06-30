@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-96c1-425c-adca-671483f6ac8f'
 title: |
   Don't use shorthands in CSS
 tags: 'page'

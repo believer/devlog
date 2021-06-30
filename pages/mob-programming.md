@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-6036-4e30-abf4-6ff52afb460f'
 title: |
   Mob programming
 tags: 'page'

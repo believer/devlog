@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-2d78-408d-bee7-4cd9b4f90e4d'
 title: |
   Testing
 tags: 'page'

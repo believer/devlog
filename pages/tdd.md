@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-5b4a-4a56-b85d-485f769275b1'
 title: |
   TDD
 tags: 'page'

@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-dd99-492a-8ace-4c2e0ec9f13b'
 title: |
   NERDTree
 tags: 'page'

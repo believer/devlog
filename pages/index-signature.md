@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c1bd0a-8579-4f1b-bad6-a7a928bd23ca'
 title: |
   Index signature
 tags: 'page'

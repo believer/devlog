@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-76b3-44da-b638-c6e4804b8c3d'
 title: |
   React Query
 tags: 'page'

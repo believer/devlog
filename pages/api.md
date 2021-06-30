@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-4048-45b6-a5d6-ffca8777d8d5'
 title: |
   API
 tags: 'page'

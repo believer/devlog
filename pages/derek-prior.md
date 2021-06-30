@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-52e7-444b-97bc-d950787e5c87'
 title: |
   Derek Prior
 tags: 'page'

@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-90f2-4a4e-8374-8d32898f1322'
 title: |
   CSS
 tags: 'page'

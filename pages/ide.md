@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-ed41-4c3c-bcaf-5cc97026199d'
 title: |
   IDE
 tags: 'page'

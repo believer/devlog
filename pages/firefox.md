@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d17b3f-c544-4fbb-8714-3f9fb5d7a0df'
 title: |
   Firefox
 tags: 'page'

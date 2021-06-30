@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-bf49-414b-8a08-07170dde1922'
 title: |
   JavaScript
 tags: 'page'

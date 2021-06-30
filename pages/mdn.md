@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d1c6e9-8a24-45cc-82b9-99a63e513002'
 title: |
   MDN
 tags: 'page'

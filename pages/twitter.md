@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c86fb9-96b6-483c-bcea-bc85e1377e52'
 title: |
   Twitter
 tags: 'page'

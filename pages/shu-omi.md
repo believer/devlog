@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60d0928c-8d69-412f-9d51-a5011a8dbd09'
 title: |
   Shu Omi
 tags: 'page'

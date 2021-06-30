@@ -1,6 +1,5 @@
 ---
 layout: 'page'
-id: '60c1bd0a-e56d-4e18-85ca-d2db257dcad7'
 title: |
   Record utility
 tags: 'page'
