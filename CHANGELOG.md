@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/believer/devlog/compare/v1.17.1...v1.17.2) (2021-06-30)
+
+
+### Bug Fixes
+
+* add development pae ([c1be4be](https://github.com/believer/devlog/commit/c1be4bec8b96b6a4cd3bf51f35545c37adf8ea92))
+
 ## [1.17.1](https://github.com/believer/devlog/compare/v1.17.0...v1.17.1) (2021-06-30)
 
 
