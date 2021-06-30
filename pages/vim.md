@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'vim'
 title: |
   Vim
 tags: 'page'

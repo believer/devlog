@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'frontend'
 title: |
   Frontend
 tags: 'page'

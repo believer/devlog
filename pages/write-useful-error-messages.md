@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'write-useful-error-messages'
 title: |
   Write useful error messages
 tags: 'page'

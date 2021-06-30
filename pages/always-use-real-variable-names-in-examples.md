@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'always-use-real-variable-names-in-examples'
 title: |
   Always use real variable names in examples
 tags: 'page'

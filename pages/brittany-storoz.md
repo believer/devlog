@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'brittany-storoz'
 title: |
   Brittany Storoz
 tags: 'page'

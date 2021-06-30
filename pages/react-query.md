@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'react-query'
 title: |
   React Query
 tags: 'page'

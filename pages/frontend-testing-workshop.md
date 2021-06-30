@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'frontend-testing-workshop'
 title: |
   Frontend testing workshop
 tags: 'page'

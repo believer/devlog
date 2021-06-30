@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'explain-in-plain-words'
 title: |
   Explain in plain words
 tags: 'page'

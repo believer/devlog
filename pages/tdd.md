@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'tdd'
 title: |
   TDD
 tags: 'page'

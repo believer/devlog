@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'learning'
 title: |
   Learning
 tags: 'page'

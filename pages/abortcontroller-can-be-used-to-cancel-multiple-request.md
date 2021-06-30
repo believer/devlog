@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'abortcontroller-can-be-used-to-cancel-multiple-request'
 title: |
   AbortController can be used to cancel multiple request
 tags: 'page'

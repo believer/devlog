@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'css'
 title: |
   CSS
 tags: 'page'

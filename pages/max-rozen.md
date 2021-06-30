@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'max-rozen'
 title: |
   Max Rozen
 tags: 'page'

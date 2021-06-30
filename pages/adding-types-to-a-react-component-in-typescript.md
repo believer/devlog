@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'adding-types-to-a-react-component-in-typescript'
 title: |
   Adding types to a React component in TypeScript
 tags: 'page'

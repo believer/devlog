@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'johnny-ji'
 title: |
   Johnny Ji
 tags: 'page'

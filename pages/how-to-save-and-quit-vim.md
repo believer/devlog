@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'how-to-save-and-quit-vim'
 title: |
   How to save and quit Vim
 tags: 'page'

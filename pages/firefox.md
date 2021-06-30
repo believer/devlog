@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'firefox'
 title: |
   Firefox
 tags: 'page'

@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'api'
 title: |
   API
 tags: 'page'

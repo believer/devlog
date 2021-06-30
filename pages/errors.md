@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'errors'
 title: |
   Errors
 tags: 'page'

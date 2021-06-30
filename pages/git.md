@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'git'
 title: |
   Git
 tags: 'page'

@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'shu-omi'
 title: |
   Shu Omi
 tags: 'page'

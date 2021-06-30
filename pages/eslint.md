@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'eslint'
 title: |
   ESLint
 tags: 'page'

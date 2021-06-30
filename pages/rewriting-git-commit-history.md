@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'rewriting-git-commit-history'
 title: |
   Rewriting Git commit history
 tags: 'page'

@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'dont-use-shorthands-in-css'
 title: |
   Don't use shorthands in CSS
 tags: 'page'

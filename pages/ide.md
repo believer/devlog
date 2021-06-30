@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'ide'
 title: |
   IDE
 tags: 'page'

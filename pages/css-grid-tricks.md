@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'css-grid-tricks'
 title: |
   CSS Grid tricks
 tags: 'page'

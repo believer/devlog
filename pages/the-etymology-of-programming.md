@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'the-etymology-of-programming'
 title: |
   The Etymology of Programming
 tags: 'page'

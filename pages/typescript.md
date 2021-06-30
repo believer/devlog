@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'typescript'
 title: |
   TypeScript
 tags: 'page'

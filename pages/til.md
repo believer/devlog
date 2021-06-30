@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'til'
 title: |
   TIL
 tags: 'page'

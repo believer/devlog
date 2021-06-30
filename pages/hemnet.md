@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'hemnet'
 title: |
   Hemnet
 tags: 'page'

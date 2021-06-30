@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'react'
 title: |
   React
 tags: 'page'

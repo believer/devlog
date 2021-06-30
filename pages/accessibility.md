@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'accessibility'
 title: |
   Accessibility
 tags: 'page'

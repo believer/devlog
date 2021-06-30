@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'index-signature'
 title: |
   Index signature
 tags: 'page'

@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'kernel'
 title: |
   Kernel
 tags: 'page'

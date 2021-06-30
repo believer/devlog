@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'richard-feynman'
 title: |
   Richard Feynman
 tags: 'page'

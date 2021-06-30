@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'meta-viewport-for-mobile-devices'
 title: |
   Meta viewport for mobile devices
 tags: 'page'

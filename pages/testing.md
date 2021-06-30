@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'testing'
 title: |
   Testing
 tags: 'page'

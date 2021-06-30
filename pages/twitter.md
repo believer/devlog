@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'twitter'
 title: |
   Twitter
 tags: 'page'

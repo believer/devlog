@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'whats-new-in-react-18'
 title: |
   What's new in React 18
 tags: 'page'

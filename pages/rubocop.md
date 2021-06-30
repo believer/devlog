@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'rubocop'
 title: |
   Rubocop
 tags: 'page'

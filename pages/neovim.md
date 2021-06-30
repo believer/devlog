@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'neovim'
 title: |
   Neovim
 tags: 'page'

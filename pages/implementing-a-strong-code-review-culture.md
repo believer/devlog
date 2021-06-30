@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'implementing-a-strong-code-review-culture'
 title: |
   Implementing a strong code-review culture
 tags: 'page'

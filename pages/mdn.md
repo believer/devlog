@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'mdn'
 title: |
   MDN
 tags: 'page'

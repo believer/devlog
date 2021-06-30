@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'structure-of-css'
 title: |
   Structure of CSS
 tags: 'page'

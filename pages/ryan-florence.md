@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'ryan-florence'
 title: |
   Ryan Florence
 tags: 'page'

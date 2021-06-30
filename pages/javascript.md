@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'javascript'
 title: |
   JavaScript
 tags: 'page'

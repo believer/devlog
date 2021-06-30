@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'prettier'
 title: |
   Prettier
 tags: 'page'

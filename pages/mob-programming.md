@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'mob-programming'
 title: |
   Mob programming
 tags: 'page'

@@ -15,13 +15,19 @@ const addMutlilineRow = ([k, v]: [string, string]) => `${k}: |
   ${v}\n`
 
 interface FrontmatterProps {
+  slug: string
   title: string
   contents?: Array<string>
 }
 
-export const createFrontmatter = ({ title, contents }: FrontmatterProps) => {
+export const createFrontmatter = ({
+  slug,
+  title,
+  contents,
+}: FrontmatterProps) => {
   let t = {
     layout: 'page',
+    slug,
     title,
     tags: isJournal(title) ? 'journal' : 'page',
   }

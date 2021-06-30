@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'jest'
 title: |
   Jest
 tags: 'page'

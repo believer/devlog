@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'nerdtree'
 title: |
   NERDTree
 tags: 'page'

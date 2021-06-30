@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'socratic-method'
 title: |
   Socratic method
 tags: 'page'

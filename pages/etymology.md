@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'etymology'
 title: |
   Etymology
 tags: 'page'

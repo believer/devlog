@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'grace-hopper'
 title: |
   Grace Hopper
 tags: 'page'

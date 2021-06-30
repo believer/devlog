@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'record-utility'
 title: |
   Record utility
 tags: 'page'

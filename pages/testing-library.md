@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'testing-library'
 title: |
   Testing Library
 tags: 'page'

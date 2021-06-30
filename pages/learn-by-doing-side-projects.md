@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'learn-by-doing-side-projects'
 title: |
   Learn by doing side projects
 tags: 'page'

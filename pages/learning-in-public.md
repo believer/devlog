@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'learning-in-public'
 title: |
   Learning in public
 tags: 'page'

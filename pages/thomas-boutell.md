@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'thomas-boutell'
 title: |
   Thomas Boutell
 tags: 'page'

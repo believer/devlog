@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'sha'
 title: |
   SHA
 tags: 'page'

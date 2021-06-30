@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'derek-prior'
 title: |
   Derek Prior
 tags: 'page'

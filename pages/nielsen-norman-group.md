@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'nielsen-norman-group'
 title: |
   Nielsen Norman Group
 tags: 'page'

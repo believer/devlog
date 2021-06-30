@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'pr'
 title: |
   PR
 tags: 'page'

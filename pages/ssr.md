@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'ssr'
 title: |
   SSR
 tags: 'page'

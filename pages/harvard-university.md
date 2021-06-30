@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+slug: 'harvard-university'
 title: |
   Harvard University
 tags: 'page'
