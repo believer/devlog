@@ -34,7 +34,7 @@ controller.abort();
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/mdn"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>MDN<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. <em>AbortController</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://developer.mozilla.org/en-US/docs/Web/API/AbortController" target="_blank" rel="noopener noreferrer">https://developer.mozilla.org/en-US/docs/Web/API/AbortController</a></div></div>
 
-<div class="element-block ml-0"><div class="flex-1"></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/development">#Development</a>, <a class="dark:text-gray-400 text-gray-500" href="/pages/react">#React</a></div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210622110339</div></div>
 </div>

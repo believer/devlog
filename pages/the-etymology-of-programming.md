@@ -27,7 +27,7 @@ excerpt: |
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/brittany-storoz"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Brittany Storoz<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2018-06-26"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2018-06-26<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>"The Etymology of Programming"</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://youtu.be/2KTK2qD4-gs" target="_blank" rel="noopener noreferrer">https://youtu.be/2KTK2qD4-gs</a></div></div>
 
-<div class="element-block ml-0"><div class="flex-1"></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/development">#Development</a></div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210622073324</div></div>
 </div>

@@ -49,7 +49,7 @@ excerpt: |
 
 <div class="element-block ml-0"><div class="flex-1">CSS Wizardry. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2016-12-12"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2016-12-12<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>"CSS Shorthand Syntax Considered an Anti-Pattern"</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/" target="_blank" rel="noopener noreferrer">https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/</a></div></div>
 
-<div class="element-block ml-0"><div class="flex-1"></div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/css">#CSS</a>, <a class="dark:text-gray-400 text-gray-500" href="/pages/development">#Development</a></div></div>
 
 <div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210427103751</div></div>
 </div>
