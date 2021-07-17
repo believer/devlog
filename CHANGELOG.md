@@ -1,3 +1,16 @@
+# [1.18.0](https://github.com/believer/devlog/compare/v1.17.2...v1.18.0) (2021-07-17)
+
+
+### Bug Fixes
+
+* new tag formatting ([b0774fc](https://github.com/believer/devlog/commit/b0774fce8268039d1e346d32d0da1cc63ff4e585))
+* sort linked references by title ([5750c94](https://github.com/believer/devlog/commit/5750c94cb62a34c45bca9388ec8d5b7c2d5f6e2c))
+
+
+### Features
+
+* add todo ([a4b5e26](https://github.com/believer/devlog/commit/a4b5e267f60515cea58960ed2761a2975222d837))
+
 ## [1.17.2](https://github.com/believer/devlog/compare/v1.17.1...v1.17.2) (2021-06-30)
 
 
