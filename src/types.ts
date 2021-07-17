@@ -13,6 +13,7 @@ export enum LinkType {
   Complex = 'Complex',
   File = 'File',
   Search = 'Search',
+  PageRef = 'Page_ref',
 }
 
 export enum EmphasisType {

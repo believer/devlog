@@ -1,4 +1,4 @@
-import { Type } from './types'
+import { LinkType, Type } from './types'
 import { slugify } from './utils'
 
 export const references = new Map()
@@ -17,10 +17,22 @@ export const collectReferences = (children: any, title: string) => {
   for (const child of children) {
     if (child.title?.length > 0) {
       for (const [titleType, titleContent] of child.title) {
-        if (titleType === Type.Link && titleContent.url[0] === 'Search') {
+        if (
+          titleType === Type.Link &&
+          (titleContent.url[0] === LinkType.PageRef ||
+            titleContent.url[0] === LinkType.Search)
+        ) {
           addReference(slugify(titleContent.url[1]), title)
-        } else if (titleType === Type.Tag) {
-          addReference(slugify(titleContent), title)
+        } else if (
+          titleType === Type.Tag &&
+          titleContent?.[0]?.[0] === Type.Plain
+        ) {
+          addReference(slugify(titleContent[0][1]), title)
+        } else if (
+          titleType === Type.Tag &&
+          titleContent?.[0]?.[0] === Type.Link
+        ) {
+          addReference(slugify(titleContent[0][1].url[1]), title)
         }
       }
 

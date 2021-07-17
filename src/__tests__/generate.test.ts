@@ -52,7 +52,7 @@ describe('#getContent', () => {
         [
           'Link',
           {
-            url: ['Search', 'Explain in plain words'],
+            url: ['Page_ref', 'Explain in plain words'],
             label: [['Plain', '']],
             full_text: '[[Explain in plain words]]',
             metadata: '',

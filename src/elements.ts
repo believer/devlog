@@ -1,3 +1,4 @@
+import { Type } from './types'
 import { isJournal, removeLinkRef, slugify } from './utils'
 
 export const link = (title: string) => {
@@ -20,7 +21,7 @@ export const externalLink = (
   link: { protocol: 'http' | 'https'; link: string },
   label: string
 ) => {
-  return `<a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="${link.protocol}:${link.link}" target="_blank" rel="noopener noreferrer">${label}</a>`
+  return `<a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="${link.protocol}://${link.link}" target="_blank" rel="noopener noreferrer">${label}</a>`
 }
 
 export const boldText = (title: string) => {
@@ -44,10 +45,16 @@ export const code = (code: string, language = '') => {
 ${snippet}\`\`\`\n\n`
 }
 
-export const tag = (text: string) => {
-  return `<a class="dark:text-gray-400 text-gray-500" href="/pages/${slugify(
-    text
-  )}">#${removeLinkRef(text)}</a>`
+export const tag = (text: any) => {
+  if (Array.isArray(text) && text[0][0] === Type.Plain) {
+    return `<a class="dark:text-gray-400 text-gray-500" href="/pages/${slugify(
+      text[0][1]
+    )}">#${removeLinkRef(text[0][1])}</a>`
+  } else if (Array.isArray(text) && text[0][0] === Type.Link) {
+    return `<a class="dark:text-gray-400 text-gray-500" href="/pages/${slugify(
+      text[0][1].url[1]
+    )}">#${removeLinkRef(text[0][1].url[1])}</a>`
+  }
 }
 
 export const image = (src: string) => {

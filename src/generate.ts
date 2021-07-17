@@ -69,6 +69,7 @@ const nodeContent = (child: any, contents: any, level: number): any => {
 
         switch (linkType) {
           case LinkType.Search:
+          case LinkType.PageRef:
             row += link(url)
             break
 
@@ -134,6 +135,7 @@ const linkedReferences = (slug: string) => {
   }
 
   const linksForPage = [...references.get(slug)]
+    .sort((a, b) => a.localeCompare(b))
     .map((title: string) => {
       return `<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/${
         isJournal(title) ? 'journals' : 'pages'
