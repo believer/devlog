@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/believer/devlog/compare/v1.18.0...v1.18.1) (2021-07-17)
+
+
+### Bug Fixes
+
+* add missing pages ([e0ec952](https://github.com/believer/devlog/commit/e0ec952b4a499c3f4a8092e84ae852ca6f670ecd))
+
 # [1.18.0](https://github.com/believer/devlog/compare/v1.17.2...v1.18.0) (2021-07-17)
 
 
