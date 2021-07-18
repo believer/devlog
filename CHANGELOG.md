@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/believer/devlog/compare/v1.18.1...v1.19.0) (2021-07-18)
+
+
+### Features
+
+* add good documentation ([879f6da](https://github.com/believer/devlog/commit/879f6da187524d1c5bc404d3fc693f5e25dcbabe))
+
 ## [1.18.1](https://github.com/believer/devlog/compare/v1.18.0...v1.18.1) (2021-07-17)
 
 
