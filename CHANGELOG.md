@@ -1,3 +1,11 @@
+## [1.19.1](https://github.com/believer/devlog/compare/v1.19.0...v1.19.1) (2021-07-18)
+
+
+### Bug Fixes
+
+* add id ([ecf8805](https://github.com/believer/devlog/commit/ecf8805a50774d0dece4a1899c76234662b89c3b))
+* add reference to new page ([9f1483b](https://github.com/believer/devlog/commit/9f1483b38918de48b5d88e04e9d3e8e7556d2c9e))
+
 # [1.19.0](https://github.com/believer/devlog/compare/v1.18.1...v1.19.0) (2021-07-18)
 
 
