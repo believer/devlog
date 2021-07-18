@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/believer/devlog/compare/v1.19.1...v1.19.2) (2021-07-18)
+
+
+### Bug Fixes
+
+* typo ([e5d29bd](https://github.com/believer/devlog/commit/e5d29bdf561ce4e6f91ddf1352e096f637151f6d))
+
 ## [1.19.1](https://github.com/believer/devlog/compare/v1.19.0...v1.19.1) (2021-07-18)
 
 
