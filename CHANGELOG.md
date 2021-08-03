@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/believer/devlog/compare/v1.19.2...v1.20.0) (2021-08-03)
+
+
+### Features
+
+* add alt text post ([fca431b](https://github.com/believer/devlog/commit/fca431beac05e74f06431c2a0ad73c8ebbc1ded1))
+
 ## [1.19.2](https://github.com/believer/devlog/compare/v1.19.1...v1.19.2) (2021-07-18)
 
 
