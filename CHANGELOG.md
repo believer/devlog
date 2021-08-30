@@ -1,3 +1,15 @@
+# [1.21.0](https://github.com/believer/devlog/compare/v1.20.1...v1.21.0) (2021-08-30)
+
+
+### Bug Fixes
+
+* image links ([4d66bde](https://github.com/believer/devlog/commit/4d66bdea47bee0a87a35eb64553f50fa82df7194))
+
+
+### Features
+
+* update with latest data ([7269770](https://github.com/believer/devlog/commit/7269770c6f6d6880bef518659982c3afd155c87d))
+
 ## [1.20.1](https://github.com/believer/devlog/compare/v1.20.0...v1.20.1) (2021-08-03)
 
 
