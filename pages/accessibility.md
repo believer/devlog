@@ -5,13 +5,13 @@ title: |
   Accessibility
 tags: 'page'
 excerpt: |
-  Commonly abbreviated as a11y which means "a - 11 letters - y" as in "a - ccessibilit - y"
+  Commonly abbreviated as a11y (a numeronym) which means "a - 11 letters - y" as in "a - ccessibilit - y"
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/accessibility">Accessibility</a></h2>
 
 <div class="space-y-3">
-<div class="element-block ml-0"><div class="flex-1">Commonly abbreviated as <strong class="text-rose-600 dark:text-rose-400">a11y</strong> which means "a - 11 letters - y" as in "a - ccessibilit - y"</div></div>
+<div class="element-block ml-0"><div class="flex-1">Commonly abbreviated as <strong class="text-rose-600 dark:text-rose-400">a11y</strong> (a numeronym) which means "a - 11 letters - y" as in "a - ccessibilit - y"</div></div>
 </div>
 
 
