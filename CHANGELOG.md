@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/believer/devlog/compare/v1.21.0...v1.21.1) (2021-08-30)
+
+
+### Bug Fixes
+
+* add missing images ([9f46d74](https://github.com/believer/devlog/commit/9f46d749036751844f717098facd5dd694fbe51c))
+
 # [1.21.0](https://github.com/believer/devlog/compare/v1.20.1...v1.21.0) (2021-08-30)
 
 
