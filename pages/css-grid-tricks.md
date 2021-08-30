@@ -56,11 +56,11 @@ excerpt: |
 
 <div class="element-block ml-4"><div class="flex-1">Here's the grid in desktop size with the grid columns highlighted using <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/chrome"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Chrome<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>'s <code>grid</code> tool.</div></div>
 
-<div class="element-block ml-4"><div class="flex-1"><img alt="" src="/assets/Skärmavbild_2021-06-10_kl._08.05.50_1623305228889_0.png" /></div></div>
+<div class="element-block ml-4"><div class="flex-1"><img alt="" src="/assets/grid_desktop_1630347066416_0.png" /></div></div>
 
 <div class="element-block ml-4"><div class="flex-1">The same grid on a screen size of <code>411px</code> (Pixel 2 XL) displays that our <code>1fr</code> columns are very small (or non-existent) at this point leaving only our "padding" columns and the content.</div></div>
 
-<div class="element-block ml-4"><div class="flex-1"><img alt="" src="/assets/Skärmavbild_2021-06-10_kl._08.06.19_1623305249365_0.png" /></div></div>
+<div class="element-block ml-4"><div class="flex-1"><img alt="" src="/assets/grid_mobile_1630347074383_0.png" /></div></div>
 
 
 </div>
