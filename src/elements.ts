@@ -4,6 +4,10 @@ import { isJournal, removeLinkRef, slugify } from './utils'
 export const link = (title: string) => {
   const href = `/${isJournal(title) ? 'journals' : 'pages'}/${slugify(title)}`
 
+  if (title.startsWith('..')) {
+    return image(title)
+  }
+
   if (title.startsWith('#')) {
     return internalLink(title)
   }
