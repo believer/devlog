@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/believer/devlog/compare/v1.21.1...v1.22.0) (2021-11-14)
+
+
+### Features
+
+* add page properties ([1d387af](https://github.com/believer/devlog/commit/1d387afa6cf14b746565a7400f7fbaa1fba5a534))
+
 ## [1.21.1](https://github.com/believer/devlog/compare/v1.21.0...v1.21.1) (2021-08-30)
 
 
