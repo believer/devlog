@@ -25,6 +25,35 @@ const journalsDirectory = path.join('journals')
 const createBlock = (level: number) =>
   `<div class="element-block ml-${level * 4}"><div class="flex-1">`
 
+const buildLink = (titleContent: any) => {
+  const [linkType, url] = titleContent.url
+
+  switch (linkType) {
+    case LinkType.Search:
+    case LinkType.PageRef:
+      return link(url)
+
+    case LinkType.Complex:
+      return externalLink(url, titleContent.label[0][1])
+
+    case LinkType.File:
+      return image(url)
+  }
+}
+
+const buildEmphasis = (titleContent: any) => {
+  const emphasisType = titleContent[0][0]
+  const text = titleContent[1][0][1]
+
+  switch (emphasisType) {
+    case EmphasisType.Bold:
+      return boldText(text)
+
+    case EmphasisType.Italic:
+      return italicText(text)
+  }
+}
+
 const nodeContent = (child: any, contents: any, level: number): any => {
   if (child.body?.length > 0 && child.body?.[0][0] !== 'Horizontal_Rule') {
     let row = createBlock(level)
@@ -50,52 +79,28 @@ const nodeContent = (child: any, contents: any, level: number): any => {
     let row = createBlock(level)
 
     for (const [titleType, titleContent] of child.title) {
-      if (titleType === Type.Plain) {
-        row += plain(titleContent, child)
-      }
+      switch (titleType) {
+        case Type.Plain:
+          row += plain(titleContent, child)
+          break
 
-      if (titleType === Type.Tag) {
-        row += tag(titleContent)
-      }
+        case Type.Tag:
+          row += tag(titleContent)
+          break
 
-      if (titleType === Type.Code) {
-        row += inlineCode(
-          titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-        )
-      }
+        case Type.Code:
+          row += inlineCode(
+            titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          )
+          break
 
-      if (titleType === Type.Link) {
-        const [linkType, url] = titleContent.url
+        case Type.Link:
+          row += buildLink(titleContent)
+          break
 
-        switch (linkType) {
-          case LinkType.Search:
-          case LinkType.PageRef:
-            row += link(url)
-            break
-
-          case LinkType.Complex:
-            row += externalLink(url, titleContent.label[0][1])
-            break
-
-          case LinkType.File:
-            row += image(url)
-            break
-        }
-      }
-
-      if (titleType === Type.Emphasis) {
-        const emphasisType = titleContent[0][0]
-        const text = titleContent[1][0][1]
-
-        switch (emphasisType) {
-          case EmphasisType.Bold:
-            row += boldText(text)
-            break
-
-          case EmphasisType.Italic:
-            row += italicText(text)
-            break
-        }
+        case Type.Emphasis:
+          row += buildEmphasis(titleContent)
+          break
       }
     }
 
@@ -110,6 +115,11 @@ export const getContent = (
 ): any => {
   for (const child of children) {
     if (child.properties?.public) {
+      continue
+    }
+
+    // Remove any Tweet embeds
+    if (child.title?.[0]?.[0] === Type.Macro) {
       continue
     }
 
@@ -174,10 +184,12 @@ const run = async () => {
 
     const contents = getContent(children)
 
-    const fileContent = `${createFrontmatter({ title, slug, contents })}
-<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/${
+    const heading = `<h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/${
       isJournal(title) ? 'journals' : 'pages'
-    }/${slugify(title)}">${title}</a></h2>
+    }/${slugify(title)}">${title}</a></h2>`
+
+    const fileContent = `${createFrontmatter({ title, slug, contents })}
+${heading}
 
 <div class="space-y-3">
 ${contents.join('\n\n')}

@@ -5,13 +5,13 @@ title: |
   Good documentation is written by and for humans
 tags: 'page'
 excerpt: |
-  Writing good documentation is hard. Remember that you are writing for humans. that it might be the first time they are seeing the code like the one you are describing.
+  Writing good documentation is hard. Remember that you are writing for humans. It might be the first time they are seeing code like the one you are describing.
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/good-documentation-is-written-by-and-for-humans">Good documentation is written by and for humans</a></h2>
 
 <div class="space-y-3">
-<div class="element-block ml-0"><div class="flex-1">Writing good documentation is hard. Remember that you are writing for humans. that it might be the first time they are seeing the code like the one you are describing.</div></div>
+<div class="element-block ml-0"><div class="flex-1">Writing good documentation is hard. Remember that you are writing for humans. It might be the first time they are seeing code like the one you are describing.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">Everyone has at least one example of good documentation. Write your documentation as that example, they way you would want to find it. <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/explain-in-plain-words"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Explain in plain words<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> as everyone might not have the same level of knowledge as you do.</div></div>
 

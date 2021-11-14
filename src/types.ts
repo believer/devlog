@@ -3,6 +3,7 @@ export enum Type {
   Custom = 'Custom',
   Emphasis = 'Emphasis',
   Link = 'Link',
+  Macro = 'Macro',
   Plain = 'Plain',
   Quote = 'Quote',
   Src = 'Src',
