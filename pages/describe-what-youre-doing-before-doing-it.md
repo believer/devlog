@@ -5,12 +5,18 @@ title: |
   Describe what you're doing before doing it
 tags: 'page'
 excerpt: |
-  Describe what you're going to do and why before actually doing it when you're teaching something to someone.
+  tags: Development, Learning, Teaching
+
+pid: 210830192911
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/describe-what-youre-doing-before-doing-it">Describe what you're doing before doing it</a></h2>
 
 <div class="space-y-3">
+<div class="element-block"><div class="bg-gray-800 py-2 px-4 flex-1 rounded-sm"><strong>tags:</strong> <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/development"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Development<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/learning"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Learning<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/teaching"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Teaching<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>
+
+<strong>pid:</strong> 210830192911</div></div>
+
 <div class="element-block ml-0"><div class="flex-1">Describe what you're going to do and why before <em>actually</em> doing it when you're teaching something to someone.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">The student will have a harder time following what you're doing if the code you're writing just "magically appears". This becomes even more relevant depending on the student's level of knowledge.</div></div>
@@ -26,15 +32,11 @@ excerpt: |
 <hr class="border-gray-700 !my-5" />
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/react-podcast"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>React Podcast<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2020-12-17"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2020-12-17<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>123: Cassidy Williams on Dreams and Disasters in 2020</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://spec.fm/podcasts/reactpodcast/XHRPTLZZ" target="_blank" rel="noopener noreferrer">Link</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/development">#Development</a>, <a class="dark:text-gray-400 text-gray-500" href="/pages/learning">#Learning</a>, <a class="dark:text-gray-400 text-gray-500" href="/pages/teaching">#Teaching</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210830192911</div></div>
 </div>
 
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
-<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-08-30">2021-08-30</a>
-<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/share-shortcuts-and-plugins-when-teaching-new-developers">Share shortcuts and plugins when teaching new developers</a>
+<a class="block bg-gray-100 dark:bg-gray-700 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-08-30">2021-08-30</a>
+<a class="block bg-gray-100 dark:bg-gray-700 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/pages/share-shortcuts-and-plugins-when-teaching-new-developers">Share shortcuts and plugins when teaching new developers</a>
   </section>

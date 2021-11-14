@@ -1,110 +1,57 @@
 import { writeFile } from 'fs/promises'
 import path from 'path'
 import data from '../data.json'
-import {
-  boldText,
-  code,
-  externalLink,
-  image,
-  inlineCode,
-  italicText,
-  link,
-  plain,
-  quote,
-  tag,
-  warning,
-} from './elements'
+import { constructChildren, constructTitle } from './elementBuilder'
+import { link } from './elements'
 import { createFrontmatter } from './frontmatter'
 import { collectReferences, references } from './references'
-import { EmphasisType, LinkType, Type } from './types'
+import { Type } from './types'
 import { ensureDirectory, isJournal, slugify } from './utils'
 
 const pagesDirectory = path.join('pages')
 const journalsDirectory = path.join('journals')
 
-const createBlock = (level: number) =>
-  `<div class="element-block ml-${level * 4}"><div class="flex-1">`
-
-const buildLink = (titleContent: any) => {
-  const [linkType, url] = titleContent.url
-
-  switch (linkType) {
-    case LinkType.Search:
-    case LinkType.PageRef:
-      return link(url)
-
-    case LinkType.Complex:
-      return externalLink(url, titleContent.label[0][1])
-
-    case LinkType.File:
-      return image(url)
-  }
-}
-
-const buildEmphasis = (titleContent: any) => {
-  const emphasisType = titleContent[0][0]
-  const text = titleContent[1][0][1]
-
-  switch (emphasisType) {
-    case EmphasisType.Bold:
-      return boldText(text)
-
-    case EmphasisType.Italic:
-      return italicText(text)
-  }
-}
-
 const nodeContent = (child: any, contents: any, level: number): any => {
+  let rowContent = ''
+
+  if (child.properties && Object.keys(child.properties).length > 0) {
+    if (child.properties.tags) {
+      rowContent += '<strong>tags:</strong> '
+      rowContent += child.properties.tags
+        .map((tag: any) => link(tag))
+        .join(', ')
+      rowContent += '\n\n'
+    }
+
+    if (child.properties.pid) {
+      rowContent += `<strong>pid:</strong> ${child.properties.pid}`
+    }
+
+    if (rowContent !== '') {
+      return contents.push(
+        `<div class="element-block"><div class="bg-gray-800 py-2 px-4 flex-1 rounded-sm">${rowContent}</div></div>`
+      )
+    }
+  }
+
   if (child.body?.length > 0 && child.body?.[0][0] !== 'Horizontal_Rule') {
-    let row = createBlock(level)
-
-    for (const [titleType, titleContent, ...rest] of child.body) {
-      if (titleType === Type.Src) {
-        row += `${code(titleContent.lines.join(''), titleContent.language)}`
-      }
-
-      if (titleType === Type.Custom && titleContent === 'warning') {
-        row += warning(rest[2])
-      }
-
-      if (titleType === Type.Quote) {
-        row += quote(titleContent)
-      }
-
-      contents.push(row + '</div></div>')
+    for (const childData of child.body) {
+      rowContent += constructTitle(childData)
     }
   }
 
   if (child.title?.length > 0) {
-    let row = createBlock(level)
-
-    for (const [titleType, titleContent] of child.title) {
-      switch (titleType) {
-        case Type.Plain:
-          row += plain(titleContent, child)
-          break
-
-        case Type.Tag:
-          row += tag(titleContent)
-          break
-
-        case Type.Code:
-          row += inlineCode(
-            titleContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')
-          )
-          break
-
-        case Type.Link:
-          row += buildLink(titleContent)
-          break
-
-        case Type.Emphasis:
-          row += buildEmphasis(titleContent)
-          break
-      }
+    for (const childData of child.title) {
+      rowContent += constructChildren(child, childData)
     }
+  }
 
-    contents.push(row + '</div></div>')
+  if (rowContent !== '') {
+    contents.push(
+      `<div class="element-block ml-${
+        level * 4
+      }"><div class="flex-1">${rowContent}</div></div>`
+    )
   }
 }
 
@@ -147,7 +94,7 @@ const linkedReferences = (slug: string) => {
   const linksForPage = [...references.get(slug)]
     .sort((a, b) => a.localeCompare(b))
     .map((title: string) => {
-      return `<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/${
+      return `<a class="block bg-gray-100 dark:bg-gray-700 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/${
         isJournal(title) ? 'journals' : 'pages'
       }/${slugify(title)}">${title}</a>`
     })

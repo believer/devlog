@@ -5,12 +5,18 @@ title: |
   Implementing a strong code-review culture
 tags: 'page'
 excerpt: |
-  Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code. A strong code review culture will give us better code and better developers.
+  tags: Code review
+
+pid: 210616101755
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/implementing-a-strong-code-review-culture">Implementing a strong code-review culture</a></h2>
 
 <div class="space-y-3">
+<div class="element-block"><div class="bg-gray-800 py-2 px-4 flex-1 rounded-sm"><strong>tags:</strong> <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/code-review"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Code review<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>
+
+<strong>pid:</strong> 210616101755</div></div>
+
 <div class="element-block ml-0"><div class="flex-1">Code reviews are more about transferring knowledge inside a team and coming up with alternate solutions than finding bugs in the code. A strong code review culture will give us better code and better developers.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">The <strong class="text-rose-600 dark:text-rose-400">why</strong> is more important than the <strong class="text-rose-600 dark:text-rose-400">how</strong>. Take the time to write a thorough <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>PR<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> description that explains the code change. Include documentation and links if they are relevant. You might not stay at the company forever and if you leave the context of the PR leaves with you. If you do stick around, your future self will thank you.</div></div>
@@ -43,15 +49,11 @@ excerpt: |
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/derek-prior"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Derek Prior<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2015-04-30"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2015-04-30<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>RailsConf 2015 - Implementing a Strong Code-Review Culture</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://www.youtube.com/watch?v=PJjmw9TRB7s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=PJjmw9TRB7s</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/code-review">#Code review</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210616101755</div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/derek-prior"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Derek Prior<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2015-04-30"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2015-04-30<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>RailsConf 2015 - Implementing a Strong Code-Review Culture</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://www.youtube.com/watch?v=PJjmw9TRB7s" target="_blank" rel="noopener noreferrer">Link</a></div></div>
 </div>
 
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>
-<a class="block bg-gray-100 dark:bg-gray-800 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-16">2021-06-16</a>
+<a class="block bg-gray-100 dark:bg-gray-700 p-4 rounded text-teal-700 dark:text-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:ring-teal-700 dark:focus:ring-teal-400 hover:ring-2 hover:ring-offset-2 dark:hover:ring-offset-gray-900 dark:hover:ring-teal-400 hover:ring-teal-700" href="/journals/2021-06-16">2021-06-16</a>
   </section>
