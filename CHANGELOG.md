@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/believer/devlog/compare/v1.22.0...v1.23.0) (2021-11-15)
+
+
+### Features
+
+* add recommended way to import react ([93e58dc](https://github.com/believer/devlog/commit/93e58dc62d89cd06ed72d5de8af3b27968637e9e))
+
 # [1.22.0](https://github.com/believer/devlog/compare/v1.21.1...v1.22.0) (2021-11-14)
 
 
