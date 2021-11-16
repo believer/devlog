@@ -73,15 +73,15 @@ export const quote = (content: any) => {
   let text = ''
 
   for (const [contentType, contentText] of content[0][1]) {
-    if (contentType === 'Plain') {
+    if (contentType === Type.Plain) {
       text += contentText
     }
 
-    if (contentType === 'Emphasis' && contentText[0][0] === 'Bold') {
+    if (contentType === Type.Emphasis && contentText[0][0] === 'Bold') {
       text += boldText(contentText[1][0][1])
     }
 
-    if (contentType === 'Link' && contentText.url[0] === 'Complex') {
+    if (contentType === Type.Link && contentText.url[0] === 'Complex') {
       text += externalLink(contentText.url[1], contentText.label[0][1])
     }
   }
@@ -90,24 +90,19 @@ export const quote = (content: any) => {
 }
 
 export const plain = (text: string, child: any): string => {
-  let headingStart = ''
-  let headingEnd = ''
   const slug = slugify(text)
+  const isHeading = child.content.match(/^#+/)
 
-  if (child.content.startsWith('# ')) {
-    headingStart = `<h1 class="text-2xl font-semibold" id="${slug}">`
-    headingEnd = `</h1>`
+  if (isHeading) {
+    const headingType: 1 | 2 | 3 = isHeading[0].length
+    const fontSize = {
+      1: 'text-2xl',
+      2: 'text-xl',
+      3: 'text-lg',
+    }
+
+    return `<h${headingType} class="${fontSize[headingType]} font-semibold" id="${slug}">${text}</h${headingType}>`
   }
 
-  if (child.content.startsWith('## ')) {
-    headingStart = `<h2 class="text-xl font-semibold" id="${slug}">`
-    headingEnd = `</h2>`
-  }
-
-  if (child.content.startsWith('### ')) {
-    headingStart = `<h3 class="text-lg font-semibold" id="${slug}">`
-    headingEnd = `</h3>`
-  }
-
-  return headingStart + text + headingEnd
+  return text
 }
