@@ -1,3 +1,11 @@
+# [1.24.0](https://github.com/believer/devlog/compare/v1.23.0...v1.24.0) (2021-11-17)
+
+
+### Features
+
+* 2021-11-16 ([0ecbbe4](https://github.com/believer/devlog/commit/0ecbbe4da525d5809db78e6a46e4b0f1f77ff5bb))
+* 2021-11-17 ([f516225](https://github.com/believer/devlog/commit/f5162251de0baa196518db970613d2b2c73813e2))
+
 # [1.23.0](https://github.com/believer/devlog/compare/v1.22.0...v1.23.0) (2021-11-15)
 
 
