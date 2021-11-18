@@ -21,9 +21,9 @@ pid: 211117191049
 
 <div class="element-block ml-0"><div class="flex-1">
 
-```typescript
+```ts
 type Task = {
-id: string
+  id: string
 }
 
 // This is fine, but might require refactoring if the id ever changes type
@@ -39,7 +39,6 @@ function getTask(id: Task['id']) {}
 
 <div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/erik-rasmussen"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Erik Rasmussen<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-11-09"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-11-09<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://twitter.com/erikras/status/1457999235564154882" target="_blank" rel="noopener noreferrer">Tweet</a></div></div>
 </div>
-
 
 <section class="mt-8 space-y-2">
 <header class="text-gray-500 dark:text-gray-400">Linked references</header>

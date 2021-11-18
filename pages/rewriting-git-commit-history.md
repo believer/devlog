@@ -5,12 +5,18 @@ title: |
   Rewriting Git commit history
 tags: 'page'
 excerpt: |
-  If you want to fix a commit inside a PR you can use Git rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:
+  tags: Git
+
+pid: 210609102742
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/rewriting-git-commit-history">Rewriting Git commit history</a></h2>
 
 <div class="space-y-3">
+<div class="element-block"><div class="bg-gray-800 py-2 px-4 flex-1 rounded-sm"><strong>tags:</strong> <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/git"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Git<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>
+
+<strong>pid:</strong> 210609102742</div></div>
+
 <div class="element-block ml-0"><div class="flex-1">If you want to fix a commit inside a <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/pr"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>PR<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> you can use <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/git"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Git<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> rebasing and the easiest way to do it is using an interactive rebase. Let's say you have three commits:</div></div>
 
 <div class="element-block ml-4"><div class="flex-1">Commit A (sha: 123)</div></div>
@@ -65,11 +71,7 @@ pick 789 Commit C
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/johnny-ji"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Johnny Ji<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-06-08"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-06-08<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>Engineering Culture: Keeping a Clean Commit History</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://johnnyisji.medium.com/engineering-culture-keeping-a-clean-commit-history-453f950c1f2d" target="_blank" rel="noopener noreferrer">https://johnnyisji.medium.com/engineering-culture-keeping-a-clean-commit-history-453f950c1f2d</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/git">#Git</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210609102742</div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/johnny-ji"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Johnny Ji<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-06-08"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-06-08<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>Engineering Culture: Keeping a Clean Commit History</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://johnnyisji.medium.com/engineering-culture-keeping-a-clean-commit-history-453f950c1f2d" target="_blank" rel="noopener noreferrer">Link</a></div></div>
 </div>
 
 

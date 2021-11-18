@@ -5,12 +5,18 @@ title: |
   Write useful error messages
 tags: 'page'
 excerpt: |
-  Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.
+  tags: Errors, Writing
+
+pid: 210609111151
 ---
 
 <h2 class="text-3xl font-semibold mb-4"><a class="rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/write-useful-error-messages">Write useful error messages</a></h2>
 
 <div class="space-y-3">
+<div class="element-block"><div class="bg-gray-800 py-2 px-4 flex-1 rounded-sm"><strong>tags:</strong> <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/errors"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Errors<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>, <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/writing"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Writing<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>
+
+<strong>pid:</strong> 210609111151</div></div>
+
 <div class="element-block ml-0"><div class="flex-1">Inform your users what is happening by writing good and useful error messages. This will hopefully lead to few support errands in the long run as the user can understand what went wrong.</div></div>
 
 <div class="element-block ml-0"><div class="flex-1">The <a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/nielsen-norman-group"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Nielsen Norman Group<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a> <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://www.nngroup.com/articles/improving-dreaded-404-error-message/" target="_blank" rel="noopener noreferrer">wrote about it</a> in 1998 and summarized it in these three guiding principles:</div></div>
@@ -31,11 +37,7 @@ excerpt: |
 
 <hr class="border-gray-700 !my-5" />
 
-<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/max-rozen"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Max Rozen<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-06-08"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-06-08<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>What the Fastly outage can teach us about writing error messages</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages" target="_blank" rel="noopener noreferrer">https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><a class="dark:text-gray-400 text-gray-500" href="/pages/errors">#Errors</a><h1 class="text-2xl font-semibold" id=",">, </h1><a class="dark:text-gray-400 text-gray-500" href="/pages/writing">#Writing</a></div></div>
-
-<div class="element-block ml-0"><div class="flex-1"><strong class="text-rose-600 dark:text-rose-400">ID:</strong> 210609111151</div></div>
+<div class="element-block ml-0"><div class="flex-1"><a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/pages/max-rozen"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>Max Rozen<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>. (<a class="text-teal-700 dark:text-teal-400 rounded-sm group focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="/journals/2021-06-08"><span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">[[</span>2021-06-08<span class="text-gray-300 dark:text-gray-500 group-hover:text-teal-900">]]</span></a>). <em>What the Fastly outage can teach us about writing error messages</em>. <a class="text-indigo-600 dark:text-indigo-400 rounded-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:focus:ring-pink-400 focus:ring-pink-700" href="https://onlineornot.com/what-fastly-outage-can-teach-about-writing-error-messages" target="_blank" rel="noopener noreferrer">Link</a></div></div>
 </div>
 
 
