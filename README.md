@@ -1,5 +1,7 @@
 # devlog
 
+**NOTE:** This is no longer maintained. I've moved over to https://til.nattochdag.dev/ and the code https://github.com/believer/til.
+
 This is my attempt at learning in public and the site is available at https://devlog.willcodefor.beer. I'm using [Logseq](https://github.com/logseq/logseq) to do my writing and generate pages using [eleventy](https://github.com/11ty/eleventy/).
 
 ## Get started
