@@ -1,6 +1,6 @@
 # devlog
 
-**NOTE:** This is no longer maintained. I've moved content to my personal site https://willcodefor.beer/ and the code https://github.com/believer/willcodefor.beer.
+**NOTE:** This is no longer maintained. I've moved content to my personal site https://willcodefor.beer/ and the code https://github.com/believer/willcodefor.
 
 This is my attempt at learning in public and the site is available at https://devlog.willcodefor.beer. I'm using [Logseq](https://github.com/logseq/logseq) to do my writing and generate pages using [eleventy](https://github.com/11ty/eleventy/).
 
